@@ -10,6 +10,11 @@ export class DetailsController {
               name: "H4 Osram AllSeasons",
               price: 800,
               number: 4
+          }, 
+          {
+              name: "H1 Маяк",
+              price: 400,
+              number: 2
           }
       ]
     }
