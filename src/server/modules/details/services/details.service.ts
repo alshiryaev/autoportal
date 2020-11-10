@@ -18,7 +18,15 @@ export class DetailsService {
                 name: "Дворники всесезонные",
                 price: 800,
                 number: 4
-            }
+            },
+            {
+                name: "Дворники летние",
+                price: 900,
+                number: 5
+            },
+            
+
+
         ]
     }
 }
