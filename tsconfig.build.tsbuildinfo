@@ -181,8 +181,13 @@
         "signature": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
         "affectsGlobalScope": true
       },
+      "./src/client/components/detailitem/detailitem.tsx": {
+        "version": "ff7e4c0597f26b3f5fd0a0be7ef154bed7b728ccbceaa8cd34eaef9936305d89",
+        "signature": "86e7481c4aefde027a4c220338986b7685965890f2878a9ba0c8fe62896601d3",
+        "affectsGlobalScope": false
+      },
       "./src/client/app.tsx": {
-        "version": "767170d20c096aad986556f4d6b2151172c6c5f5d97141eed34da89da0b6b30f",
+        "version": "f05742e2f2018749a26b8abc78ad10deda83ca6ea5dccda2b979acedd3677d1e",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -3525,6 +3530,10 @@
         "./node_modules/rxjs/internal/types.d.ts"
       ],
       "./src/client/app.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/client/components/detailitem/detailitem.tsx"
+      ],
+      "./src/client/components/detailitem/detailitem.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/server/app.module.ts": [
@@ -5348,6 +5357,7 @@
       "./node_modules/typescript/lib/lib.scripthost.d.ts",
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/client/app.tsx",
+      "./src/client/components/detailitem/detailitem.tsx",
       "./src/server/app.module.ts",
       "./src/server/main.ts",
       "./src/server/modules/details/details.controller.ts",

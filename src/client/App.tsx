@@ -1,15 +1,25 @@
 import * as React from 'react';
 import { render } from 'react-dom';
 
-const App = () => {
-    
-    React.useEffect(() => {
-      fetch('/details')
-          .then(res => res.json())
-          .then(json => console.log(json))
-    });
+import {DetailItem} from './components/DetailItem/DetailItem';
 
-  return <h1>helloс!</h1>;
+const App = () => {
+  const [details, setDetails] = React.useState([]);
+
+  React.useEffect(() => {
+
+    fetch('api/details')
+      .then((res) => res.json())
+      .then((json) => setDetails(json));
+  });
+
+  return (
+    <ol>
+      {details.map((detail) => (
+        <DetailItem detail={detail}></DetailItem>
+      ))}
+    </ol>
+  );
 };
 
 render(<App />, document.getElementById('app'));
