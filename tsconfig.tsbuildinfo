@@ -161,10 +161,30 @@
         "signature": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
         "affectsGlobalScope": false
       },
-      "./src/client/app.tsx": {
-        "version": "54075ef50038247dfb5374b8488e4df4b047edd999a52fc10a78cd8f82933676",
-        "signature": "d8d5cd3f7350b4b31c601ad5a6cfae2bde0c16f13310971035e66ec03ea16748",
+      "./node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
         "affectsGlobalScope": true
+      },
+      "./node_modules/csstype/index.d.ts": {
+        "version": "c89da57b29cf0a695fe46e6ab8cd7d64edb15a6708ae2352e30d79a3936ccc5c",
+        "signature": "c89da57b29cf0a695fe46e6ab8cd7d64edb15a6708ae2352e30d79a3936ccc5c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react/index.d.ts": {
+        "version": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
+        "signature": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
+        "affectsGlobalScope": true
+      },
+      "./src/client/app.tsx": {
+        "version": "767170d20c096aad986556f4d6b2151172c6c5f5d97141eed34da89da0b6b30f",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
       },
       "./node_modules/reflect-metadata/index.d.ts": {
         "version": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90",
@@ -1182,17 +1202,17 @@
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/services/details.service.ts": {
-        "version": "3db95a464c2b058a3190c39957b85eab463b20b27411b6907f11f69d8f80f585",
+        "version": "920d377f98dd746df7894af0ae8846c6162e2f0c6f4db29896129cb95822c153",
         "signature": "7e3531ff27bdf768aa38e9f4374098e6db4182247da52ebd93394e3d383c0e5b",
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/details.controller.ts": {
-        "version": "9c88a0e77db933a17edac1f285f8aaee95259a9005e2c337b7bdf9955ddcef03",
+        "version": "4fb05b5c89f06c1789882fb6b07cee8bd7ddfe2df7f9bb55cf6fd2b3152bc28b",
         "signature": "74c17e072a1190c3161f99dce87289ef4b81699c568bf0f9b6cf2454ea356480",
         "affectsGlobalScope": false
       },
       "./src/server/app.module.ts": {
-        "version": "3b068c0403e4a67b5d900d92b7f226263c9f730bd55474e8c6734a3101b9ecb4",
+        "version": "bd1132925c17bec7eb4f2848ad36c36848e11e1d4fe0fa91316b381244bffa7e",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -1467,8 +1487,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": {
-        "version": "1205f9908206109effcfe3649bdac82907939bae2e3cb132f8f6236b587515ac",
-        "signature": "1205f9908206109effcfe3649bdac82907939bae2e3cb132f8f6236b587515ac",
+        "version": "333bf50e91d113db1a244250890f72b5680ed2d0f75e9800cd44a43a780eaabe",
+        "signature": "333bf50e91d113db1a244250890f72b5680ed2d0f75e9800cd44a43a780eaabe",
         "affectsGlobalScope": false
       },
       "./node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts": {
@@ -1497,8 +1517,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": {
-        "version": "17b5469df1d2c13496e90752122e1236d9ebd057fe5ff3b37f1e3b4613ea3969",
-        "signature": "17b5469df1d2c13496e90752122e1236d9ebd057fe5ff3b37f1e3b4613ea3969",
+        "version": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024",
+        "signature": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024",
         "affectsGlobalScope": false
       },
       "./node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": {
@@ -1562,7 +1582,7 @@
         "affectsGlobalScope": false
       },
       "./src/server/main.ts": {
-        "version": "1798526c6ffad81338855e8031119b62923af52cea821cc225e49177dad9cb0b",
+        "version": "cb38b6a44ed67758a840cd9549177085e2651896e0532c03fe33dfaa1c13bc32",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -1609,6 +1629,41 @@
       "./src/server/modules/details/services/details.service.spec.ts": {
         "version": "48534b001980a4a0a22ba99c34a06162ce598f33b2eb991e5ad586145386dfa7",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/anymatch/index.d.ts": {
+        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@babel/types/lib/index.d.ts": {
+        "version": "99e098ee912ac5565a9102be04e924f7841439706c9e9390d534ab7ae9369a39",
+        "signature": "99e098ee912ac5565a9102be04e924f7841439706c9e9390d534ab7ae9369a39",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__generator/index.d.ts": {
+        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
+        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "ef91066d2057cca50511e3af2d4aa54e07913a15f9cee1748f256139318eb413",
+        "signature": "ef91066d2057cca50511e3af2d4aa54e07913a15f9cee1748f256139318eb413",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "8678956904af215fe917b2df07b6c54f876fa64eb1f8a158e4ff38404cef3ff4",
+        "signature": "8678956904af215fe917b2df07b6c54f876fa64eb1f8a158e4ff38404cef3ff4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__core/index.d.ts": {
+        "version": "a66e700ed470a0cb52d14f3376c1605c70fec8e9659e45f7e22ad07fcd06ae04",
+        "signature": "a66e700ed470a0cb52d14f3376c1605c70fec8e9659e45f7e22ad07fcd06ae04",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/globals.d.ts": {
@@ -1846,66 +1901,6 @@
         "signature": "5825520e2099309182c6e2a2b3061b060d42a098c58f67d1754880a7e2cce99a",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/cookiejar/index.d.ts": {
-        "version": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
-        "signature": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/superagent/index.d.ts": {
-        "version": "022bb15c2fb40bb465a4511476b1796b9977e2bab463ffd8b2b3d1d1a56b00d1",
-        "signature": "022bb15c2fb40bb465a4511476b1796b9977e2bab463ffd8b2b3d1d1a56b00d1",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/supertest/index.d.ts": {
-        "version": "e6540dcaa31aadbd070bea91d31c387c3e03baf78ea56420e706ae77660ae45a",
-        "signature": "e6540dcaa31aadbd070bea91d31c387c3e03baf78ea56420e706ae77660ae45a",
-        "affectsGlobalScope": false
-      },
-      "./src/server/test/app.e2e-spec.ts": {
-        "version": "a02dfdc143eeec47c36db06fcb91c36ba1c8c9377c720b831a86ddc2701fcf8d",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/anymatch/index.d.ts": {
-        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
-        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/aria-query/index.d.ts": {
-        "version": "17ce4c8c90dd63282e4ff0d6a90fb4c86244293d77a1eaa23947dbe4e8b66eb5",
-        "signature": "17ce4c8c90dd63282e4ff0d6a90fb4c86244293d77a1eaa23947dbe4e8b66eb5",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@babel/types/lib/index.d.ts": {
-        "version": "cd5a5fd244fa901f9c331e45b833ea5a4efa162acdc129c6e52e5d74e924752b",
-        "signature": "cd5a5fd244fa901f9c331e45b833ea5a4efa162acdc129c6e52e5d74e924752b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/babel__generator/index.d.ts": {
-        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
-        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/babel__traverse/index.d.ts": {
-        "version": "ef91066d2057cca50511e3af2d4aa54e07913a15f9cee1748f256139318eb413",
-        "signature": "ef91066d2057cca50511e3af2d4aa54e07913a15f9cee1748f256139318eb413",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "8678956904af215fe917b2df07b6c54f876fa64eb1f8a158e4ff38404cef3ff4",
-        "signature": "8678956904af215fe917b2df07b6c54f876fa64eb1f8a158e4ff38404cef3ff4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/babel__template/index.d.ts": {
-        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
-        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/babel__core/index.d.ts": {
-        "version": "a66e700ed470a0cb52d14f3376c1605c70fec8e9659e45f7e22ad07fcd06ae04",
-        "signature": "a66e700ed470a0cb52d14f3376c1605c70fec8e9659e45f7e22ad07fcd06ae04",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/connect/index.d.ts": {
         "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
         "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
@@ -1914,6 +1909,11 @@
       "./node_modules/@types/body-parser/index.d.ts": {
         "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
         "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/cookiejar/index.d.ts": {
+        "version": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
+        "signature": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/eslint/helpers.d.ts": {
@@ -1971,24 +1971,9 @@
         "signature": "088d420a09a36d241f1ddbdcb553951c02ef0844014727a29712d2ced57edd22",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/minimatch/index.d.ts": {
-        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
-        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/glob/index.d.ts": {
-        "version": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
-        "signature": "393137c76bd922ba70a2f8bf1ade4f59a16171a02fb25918c168d48875b0cfb0",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/graceful-fs/index.d.ts": {
         "version": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
         "signature": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/html-minifier-terser/index.d.ts": {
-        "version": "6767cce098e1e6369c26258b7a1f9e569c5467d501a47a090136d5ea6e80ae6d",
-        "signature": "6767cce098e1e6369c26258b7a1f9e569c5467d501a47a090136d5ea6e80ae6d",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts": {
@@ -2066,41 +2051,6 @@
         "signature": "7403a1397d48771d58d55c603d0c51aa3d4cd6467bca03140f085fdc432eb912",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/prop-types/index.d.ts": {
-        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
-        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/q/index.d.ts": {
-        "version": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
-        "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react/global.d.ts": {
-        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
-        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/csstype/index.d.ts": {
-        "version": "c89da57b29cf0a695fe46e6ab8cd7d64edb15a6708ae2352e30d79a3936ccc5c",
-        "signature": "c89da57b29cf0a695fe46e6ab8cd7d64edb15a6708ae2352e30d79a3936ccc5c",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/react/index.d.ts": {
-        "version": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
-        "signature": "416e5d547a57e2fc9bac063ff167eee2c34aad14296acf9688eaa24fee981e05",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/@types/react-dom/index.d.ts": {
-        "version": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
-        "signature": "8483a29c17f7feb768a1f4333cf12ccf1e7341bd89dadcf407e012d5315228d0",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/resolve/index.d.ts": {
-        "version": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
-        "signature": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/source-list-map/index.d.ts": {
         "version": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae",
         "signature": "67fc055eb86a0632e2e072838f889ffe1754083cb13c8c80a06a7d895d877aae",
@@ -2111,17 +2061,22 @@
         "signature": "c6c4fea9acc55d5e38ff2b70d57ab0b5cdbd08f8bc5d7a226e322cea128c5b57",
         "affectsGlobalScope": false
       },
+      "./node_modules/@types/superagent/index.d.ts": {
+        "version": "022bb15c2fb40bb465a4511476b1796b9977e2bab463ffd8b2b3d1d1a56b00d1",
+        "signature": "022bb15c2fb40bb465a4511476b1796b9977e2bab463ffd8b2b3d1d1a56b00d1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/supertest/index.d.ts": {
+        "version": "e6540dcaa31aadbd070bea91d31c387c3e03baf78ea56420e706ae77660ae45a",
+        "signature": "e6540dcaa31aadbd070bea91d31c387c3e03baf78ea56420e706ae77660ae45a",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/tapable/index.d.ts": {
         "version": "d558a0fe921ebcc88d3212c2c42108abf9f0d694d67ebdeba37d7728c044f579",
         "signature": "d558a0fe921ebcc88d3212c2c42108abf9f0d694d67ebdeba37d7728c044f579",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/testing-library__jest-dom/index.d.ts": {
-        "version": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
-        "signature": "d196da9c61a0bec85db6f6ee9b1f46781d25e0627b1d2bedcaeea8ebb1749559",
-        "affectsGlobalScope": true
-      },
-      "./node_modules/source-map/source-map.d.ts": {
+      "./node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts": {
         "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
         "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
         "affectsGlobalScope": false
@@ -2136,7 +2091,12 @@
         "signature": "4fb0b7d532aa6fb850b6cd2f1ee4f00802d877b5c66a51903bc1fb0624126349",
         "affectsGlobalScope": false
       },
-      "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts": {
+      "./node_modules/@types/webpack/node_modules/source-map/source-map.d.ts": {
+        "version": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "signature": "2887592574fcdfd087647c539dcb0fbe5af2521270dad4a37f9d17c16190d579",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/source-map/source-map.d.ts": {
         "version": "b90c59ac4682368a01c83881b814738eb151de8a58f52eb7edadea2bcffb11b9",
         "signature": "b90c59ac4682368a01c83881b814738eb151de8a58f52eb7edadea2bcffb11b9",
         "affectsGlobalScope": false
@@ -2202,8 +2162,8 @@
         "affectsGlobalScope": false
       },
       "./node_modules/@types/webpack/index.d.ts": {
-        "version": "c0f715c52d382c77e752c83fb6a19d3dfec97d4bccdc78bae5f11abb7cb2ea21",
-        "signature": "c0f715c52d382c77e752c83fb6a19d3dfec97d4bccdc78bae5f11abb7cb2ea21",
+        "version": "3f1bfa5b1d3e8d4ea1f64c13e0060453a52282f7fce02a536856de40dab3f7e1",
+        "signature": "3f1bfa5b1d3e8d4ea1f64c13e0060453a52282f7fce02a536856de40dab3f7e1",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/yargs-parser/index.d.ts": {
@@ -2230,6 +2190,7 @@
       "baseUrl": "./",
       "incremental": true,
       "rootDir": "./src",
+      "jsx": 2,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -3037,11 +2998,6 @@
         "./node_modules/@types/qs/index.d.ts",
         "./node_modules/@types/serve-static/index.d.ts"
       ],
-      "./node_modules/@types/glob/index.d.ts": [
-        "./node_modules/@types/minimatch/index.d.ts",
-        "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/index.d.ts"
-      ],
       "./node_modules/@types/graceful-fs/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/index.d.ts"
@@ -3223,16 +3179,10 @@
       "./node_modules/@types/node/zlib.d.ts": [
         "./node_modules/@types/node/stream.d.ts"
       ],
-      "./node_modules/@types/react-dom/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
         "./node_modules/csstype/index.d.ts"
-      ],
-      "./node_modules/@types/resolve/index.d.ts": [
-        "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@types/serve-static/index.d.ts": [
         "./node_modules/@types/mime/index.d.ts",
@@ -3249,11 +3199,8 @@
       "./node_modules/@types/supertest/index.d.ts": [
         "./node_modules/@types/superagent/index.d.ts"
       ],
-      "./node_modules/@types/testing-library__jest-dom/index.d.ts": [
-        "./node_modules/@types/jest/index.d.ts"
-      ],
       "./node_modules/@types/uglify-js/index.d.ts": [
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/index.d.ts": [
         "./node_modules/@types/node/index.d.ts",
@@ -3272,7 +3219,7 @@
       "./node_modules/@types/webpack-sources/lib/cachedsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/compatsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
@@ -3282,7 +3229,7 @@
         "./node_modules/@types/source-list-map/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/index.d.ts": [
         "./node_modules/@types/webpack-sources/lib/cachedsource.d.ts",
@@ -3295,13 +3242,13 @@
         "./node_modules/@types/webpack-sources/lib/sizeonlysource.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
         "./node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts",
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/originalsource.d.ts": [
         "./node_modules/@types/source-list-map/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/prefixsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
@@ -3321,21 +3268,21 @@
       "./node_modules/@types/webpack-sources/lib/source.d.ts": [
         "./node_modules/@types/node/crypto.d.ts",
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack/index.d.ts": [
         "./node_modules/@types/node/crypto.d.ts",
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/tapable/index.d.ts",
         "./node_modules/@types/uglify-js/index.d.ts",
+        "./node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "./node_modules/@types/webpack-sources/index.d.ts",
-        "./node_modules/anymatch/index.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/anymatch/index.d.ts"
       ],
       "./node_modules/@types/yargs/index.d.ts": [
         "./node_modules/@types/yargs-parser/index.d.ts"
@@ -3654,6 +3601,9 @@
       "./node_modules/rxjs/internal/util/pipe.d.ts": [
         "./node_modules/rxjs/internal/types.d.ts"
       ],
+      "./src/client/app.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/server/app.module.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
         "./src/server/modules/details/details.controller.ts",
@@ -3678,11 +3628,6 @@
       ],
       "./src/server/modules/details/services/details.service.ts": [
         "./node_modules/@nestjs/common/index.d.ts"
-      ],
-      "./src/server/test/app.e2e-spec.ts": [
-        "./node_modules/@nestjs/common/index.d.ts",
-        "./node_modules/@nestjs/testing/index.d.ts",
-        "./node_modules/@types/supertest/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -4490,11 +4435,6 @@
         "./node_modules/@types/qs/index.d.ts",
         "./node_modules/@types/serve-static/index.d.ts"
       ],
-      "./node_modules/@types/glob/index.d.ts": [
-        "./node_modules/@types/minimatch/index.d.ts",
-        "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/index.d.ts"
-      ],
       "./node_modules/@types/graceful-fs/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/index.d.ts"
@@ -4676,16 +4616,10 @@
       "./node_modules/@types/node/zlib.d.ts": [
         "./node_modules/@types/node/stream.d.ts"
       ],
-      "./node_modules/@types/react-dom/index.d.ts": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/@types/prop-types/index.d.ts",
         "./node_modules/@types/react/global.d.ts",
         "./node_modules/csstype/index.d.ts"
-      ],
-      "./node_modules/@types/resolve/index.d.ts": [
-        "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@types/serve-static/index.d.ts": [
         "./node_modules/@types/mime/index.d.ts",
@@ -4701,9 +4635,6 @@
       ],
       "./node_modules/@types/supertest/index.d.ts": [
         "./node_modules/@types/superagent/index.d.ts"
-      ],
-      "./node_modules/@types/testing-library__jest-dom/index.d.ts": [
-        "./node_modules/@types/jest/index.d.ts"
       ],
       "./node_modules/@types/uglify-js/index.d.ts": [
         "./node_modules/source-map/source-map.d.ts"
@@ -4786,9 +4717,9 @@
         "./node_modules/@types/node/index.d.ts",
         "./node_modules/@types/tapable/index.d.ts",
         "./node_modules/@types/uglify-js/index.d.ts",
+        "./node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "./node_modules/@types/webpack-sources/index.d.ts",
-        "./node_modules/anymatch/index.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/anymatch/index.d.ts"
       ],
       "./node_modules/@types/yargs/index.d.ts": [
         "./node_modules/@types/yargs-parser/index.d.ts"
@@ -5332,7 +5263,6 @@
       "./node_modules/@nestjs/testing/testing-module.builder.d.ts",
       "./node_modules/@nestjs/testing/testing-module.d.ts",
       "./node_modules/@types/anymatch/index.d.ts",
-      "./node_modules/@types/aria-query/index.d.ts",
       "./node_modules/@types/babel__core/index.d.ts",
       "./node_modules/@types/babel__generator/index.d.ts",
       "./node_modules/@types/babel__template/index.d.ts",
@@ -5346,9 +5276,7 @@
       "./node_modules/@types/estree/index.d.ts",
       "./node_modules/@types/express-serve-static-core/index.d.ts",
       "./node_modules/@types/express/index.d.ts",
-      "./node_modules/@types/glob/index.d.ts",
       "./node_modules/@types/graceful-fs/index.d.ts",
-      "./node_modules/@types/html-minifier-terser/index.d.ts",
       "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "./node_modules/@types/istanbul-lib-report/index.d.ts",
       "./node_modules/@types/istanbul-reports/index.d.ts",
@@ -5356,7 +5284,6 @@
       "./node_modules/@types/json-schema/index.d.ts",
       "./node_modules/@types/json5/index.d.ts",
       "./node_modules/@types/mime/index.d.ts",
-      "./node_modules/@types/minimatch/index.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
       "./node_modules/@types/node/base.d.ts",
@@ -5408,21 +5335,18 @@
       "./node_modules/@types/parse-json/index.d.ts",
       "./node_modules/@types/prettier/index.d.ts",
       "./node_modules/@types/prop-types/index.d.ts",
-      "./node_modules/@types/q/index.d.ts",
       "./node_modules/@types/qs/index.d.ts",
       "./node_modules/@types/range-parser/index.d.ts",
-      "./node_modules/@types/react-dom/index.d.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
-      "./node_modules/@types/resolve/index.d.ts",
       "./node_modules/@types/serve-static/index.d.ts",
       "./node_modules/@types/source-list-map/index.d.ts",
       "./node_modules/@types/stack-utils/index.d.ts",
       "./node_modules/@types/superagent/index.d.ts",
       "./node_modules/@types/supertest/index.d.ts",
       "./node_modules/@types/tapable/index.d.ts",
-      "./node_modules/@types/testing-library__jest-dom/index.d.ts",
       "./node_modules/@types/uglify-js/index.d.ts",
+      "./node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
       "./node_modules/@types/webpack-sources/index.d.ts",
       "./node_modules/@types/webpack-sources/lib/cachedsource.d.ts",
       "./node_modules/@types/webpack-sources/lib/compatsource.d.ts",
@@ -5435,8 +5359,8 @@
       "./node_modules/@types/webpack-sources/lib/sizeonlysource.d.ts",
       "./node_modules/@types/webpack-sources/lib/source.d.ts",
       "./node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts",
-      "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
       "./node_modules/@types/webpack/index.d.ts",
+      "./node_modules/@types/webpack/node_modules/source-map/source-map.d.ts",
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
       "./node_modules/anymatch/index.d.ts",
@@ -5553,1686 +5477,7 @@
       "./src/server/modules/details/details.controller.spec.ts",
       "./src/server/modules/details/details.controller.ts",
       "./src/server/modules/details/services/details.service.spec.ts",
-      "./src/server/modules/details/services/details.service.ts",
-      [
-        "./src/server/test/app.e2e-spec.ts",
-        [
-          {
-            "file": "./src/server/test/app.e2e-spec.ts",
-            "start": 170,
-            "length": 21,
-            "messageText": "Cannot find module './../src/app.module' or its corresponding type declarations.",
-            "category": 1,
-            "code": 2307
-          }
-        ]
-      ]
-    ],
-    "affectedFilesPendingEmit": [
-      [
-        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@babel/types/lib/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/cache.constants.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/cache.module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/decorators/cache-key.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/decorators/cache-ttl.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/decorators/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/interceptors/cache.interceptor.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/interceptors/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/interfaces/cache-manager.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/interfaces/cache-module.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/cache/interfaces/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/apply-decorators.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/bind.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/catch.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/controller.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/dependencies.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/exception-filters.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/inject.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/injectable.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/optional.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/set-metadata.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/use-guards.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/use-interceptors.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/core/use-pipes.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/create-route-param-metadata.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/header.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/http-code.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/redirect.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/render.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/request-mapping.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/route-params.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/http/sse.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/modules/global.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/modules/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/decorators/modules/module.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/enums/http-status.enum.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/enums/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/enums/request-method.enum.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/enums/shutdown-signal.enum.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/bad-gateway.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/bad-request.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/conflict.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/forbidden.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/gateway-timeout.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/gone.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/http-version-not-supported.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/http.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/im-a-teapot.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/internal-server-error.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/method-not-allowed.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/misdirected.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/not-acceptable.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/not-found.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/not-implemented.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/payload-too-large.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/precondition-failed.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/request-timeout.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/service-unavailable.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/unauthorized.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/unprocessable-entity.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/exceptions/unsupported-media-type.exception.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/http/http.module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/http/http.service.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/http/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/http/interfaces/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/abstract.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/controllers/controller-metadata.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/exceptions/exception-filter.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/exceptions/rpc-exception-filter.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/exceptions/ws-exception-filter.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/external/class-transform-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/external/https-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/external/validation-error.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/external/validator-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/arguments-host.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/can-activate.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/custom-route-param-factory.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/execution-context.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/nest-interceptor.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/paramtype.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/features/pipe-transform.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/hooks/before-application-shutdown.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/hooks/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/hooks/on-application-bootstrap.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/hooks/on-application-shutdown.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/hooks/on-destroy.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/hooks/on-init.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/http/http-server.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/http/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/http/message-event.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/microservices/nest-hybrid-application-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/middleware/middleware-config-proxy.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/middleware/middleware-consumer.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/middleware/nest-middleware.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/dynamic-module.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/forward-reference.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/introspection-result.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/nest-module.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/modules/provider.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/nest-application-context.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/nest-application.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/nest-microservice.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/scope-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/interfaces/websockets/web-socket-adapter.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/default-value.pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/parse-array.pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/parse-bool.pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/parse-int.pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/parse-uuid.pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/pipes/validation.pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/serializer/class-serializer.interceptor.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/serializer/decorators/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/serializer/decorators/serialize-options.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/serializer/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/services/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/services/logger.service.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/utils/http-error-by-code.util.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/common/utils/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/adapters/http-adapter.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/adapters/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/application-config.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/constants.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/discovery/discovery-module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/discovery/discovery-service.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/discovery/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/exceptions/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/helpers/http-adapter-host.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/helpers/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/container.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/injector.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/inquirer/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/module-ref.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/module-token-factory.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/injector/modules-container.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/metadata-scanner.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/middleware/builder.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/middleware/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/middleware/routes-mapper.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/nest-application-context.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/nest-application.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/nest-factory.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/router/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/router/request/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/router/request/request-constants.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/services/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/core/services/reflector.service.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/document-builder.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/dist/utils/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/swagger/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/interfaces/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/test.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@nestjs/testing/testing-module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/anymatch/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/aria-query/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/babel__core/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/babel__generator/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/babel__template/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/babel__traverse/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/body-parser/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/connect/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/cookiejar/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/eslint-scope/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/eslint/helpers.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/eslint/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/estree/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/express-serve-static-core/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/express/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/glob/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/graceful-fs/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/html-minifier-terser/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/istanbul-lib-report/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/istanbul-reports/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/jest/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/json-schema/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/json5/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/mime/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/minimatch/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/assert.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/async_hooks.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/base.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/buffer.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/child_process.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/cluster.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/console.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/constants.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/crypto.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/dgram.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/dns.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/domain.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/events.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/fs.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/fs/promises.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/globals.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/globals.global.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/http.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/http2.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/https.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/inspector.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/module.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/net.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/os.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/path.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/perf_hooks.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/process.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/punycode.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/querystring.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/readline.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/repl.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/stream.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/string_decoder.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/timers.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/tls.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/trace_events.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/ts3.4/base.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/ts3.6/base.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/tty.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/url.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/util.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/v8.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/vm.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/wasi.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/worker_threads.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/node/zlib.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/normalize-package-data/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/parse-json/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/prettier/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/prop-types/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/q/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/qs/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/range-parser/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/react-dom/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/react/global.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/react/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/resolve/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/serve-static/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/source-list-map/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/stack-utils/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/superagent/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/supertest/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/tapable/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/testing-library__jest-dom/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/uglify-js/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/cachedsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/compatsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/concatsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/originalsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/prefixsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/rawsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/replacesource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/sizeonlysource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/webpack/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/yargs-parser/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/@types/yargs/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/anymatch/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/axios/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/csstype/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/jest-diff/build/cleanupsemantic.d.ts",
-        1
-      ],
-      [
-        "./node_modules/jest-diff/build/difflines.d.ts",
-        1
-      ],
-      [
-        "./node_modules/jest-diff/build/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/jest-diff/build/printdiffs.d.ts",
-        1
-      ],
-      [
-        "./node_modules/jest-diff/build/types.d.ts",
-        1
-      ],
-      [
-        "./node_modules/pretty-format/build/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/pretty-format/build/types.d.ts",
-        1
-      ],
-      [
-        "./node_modules/reflect-metadata/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/index.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/asyncsubject.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/behaviorsubject.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/config.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/innersubscriber.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/notification.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/bindcallback.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/bindnodecallback.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/combinelatest.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/concat.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/connectableobservable.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/defer.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/empty.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/forkjoin.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/from.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/fromevent.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/fromeventpattern.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/generate.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/iif.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/interval.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/merge.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/never.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/of.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/onerrorresumenext.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/pairs.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/partition.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/race.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/range.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/throwerror.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/timer.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/using.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/observable/zip.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/operator.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/operators/groupby.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/outersubscriber.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/replaysubject.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduled/scheduled.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/action.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/animationframe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/animationframescheduler.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/asap.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/asapscheduler.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/async.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/asyncaction.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/asyncscheduler.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/queue.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/queuescheduler.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/scheduler/virtualtimescheduler.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/subject.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/subscriber.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/subscription.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/symbol/observable.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/types.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/argumentoutofrangeerror.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/emptyerror.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/identity.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/isobservable.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/noop.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/objectunsubscribederror.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/pipe.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/timeouterror.d.ts",
-        1
-      ],
-      [
-        "./node_modules/rxjs/internal/util/unsubscriptionerror.d.ts",
-        1
-      ],
-      [
-        "./node_modules/source-map/source-map.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2015.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2016.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2017.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2017.full.d.ts",
-        1
-      ],
-      [
-        "./node_modules/typescript/lib/lib.es2018.d.ts",
-        1
-      ],
-      [
-        "./src/client/app.tsx",
-        1
-      ],
-      [
-        "./src/server/app.module.ts",
-        1
-      ],
-      [
-        "./src/server/main.ts",
-        1
-      ],
-      [
-        "./src/server/modules/details/details.controller.spec.ts",
-        1
-      ],
-      [
-        "./src/server/modules/details/details.controller.ts",
-        1
-      ],
-      [
-        "./src/server/modules/details/services/details.service.spec.ts",
-        1
-      ],
-      [
-        "./src/server/modules/details/services/details.service.ts",
-        1
-      ],
-      [
-        "./src/server/test/app.e2e-spec.ts",
-        1
-      ]
+      "./src/server/modules/details/services/details.service.ts"
     ]
   },
   "version": "4.0.5"
