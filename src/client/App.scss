@@ -1,0 +1,22 @@
+@import "./styles/main.scss";
+
+.menu {
+    
+    list-style-type: none;
+
+    &__item {
+        display: inline-block;
+        margin-right: 2rem;
+        font-size: 1rem;
+
+        a {
+            text-decoration: none;
+            color: $color-gray-dark;
+            text-transform: uppercase;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
