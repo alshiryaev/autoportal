@@ -6,10 +6,10 @@ import DetailList from './components/DetailList/DetailList';
 import Home from './components/Home/Home';
 
 import './App.scss';
+import { Detail } from 'src/common/detail.model';
 
 const App = () => {
-
-  const [details, setDetails] = React.useState([]);
+  const [details, setDetails] = React.useState<Detail[]>([]);
   React.useEffect(() => {
     fetch('api/details')
       .then((res) => res.json())
@@ -18,14 +18,14 @@ const App = () => {
 
   return (
     <Router>
-      <header>
+      <header className="header">
         <nav>
           <ul className="menu">
             <li className="menu__item">
-              <Link to="/">Главная</Link>
+              <Link to="/">AUTOPORTAL</Link>
             </li>
             <li className="menu__item">
-              <Link to="/details">Детали</Link>
+              <Link to="/details">Каталог деталей</Link>
             </li>
           </ul>
         </nav>
