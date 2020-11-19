@@ -232,17 +232,22 @@
         "affectsGlobalScope": false
       },
       "./src/client/components/detaillist/detaillist.tsx": {
-        "version": "d797fc908ecf373bb3bfceaec0e34b3ed5f79c5a98aca9498a9a2ea052ca6b95",
+        "version": "64057891984811dbdd9ffd047017e830f42dbee26bce3e22a841dc7f7351b0ed",
         "signature": "c6c32d3c02d2810659b19fc0cbd8a29ee5ffb45e375b3d025f78e5be9266c072",
         "affectsGlobalScope": false
       },
       "./src/client/components/home/home.tsx": {
-        "version": "45049eaca2ad2cf443240d8ee3c266e51834773349992692813d2387e7e30350",
+        "version": "26fa7cec92cc309eece71a888ff1749cf120bd25719af1f32de1404bde1b171d",
         "signature": "d9f1b09e105cbf409ec7b14271b774dc8a78a511f3480ca7c927701584359443",
         "affectsGlobalScope": false
       },
+      "./src/common/detail.model.ts": {
+        "version": "0959b3a3a8f127669621344c706645581d7d1acb5008a62c32097946704f95b7",
+        "signature": "278604533ce7674dad4cceef11413c5e2abe3411b17b96a6baef9b39c0c95cbc",
+        "affectsGlobalScope": false
+      },
       "./src/client/app.tsx": {
-        "version": "01a11316067f6c174708e93b13dfbbcbab52289b7dbf85d3340254c9e5831709",
+        "version": "6654d5a2902e3b4d063c94b3eba9bf0574aa8639d69d2c8128531bb03d64f21e",
         "signature": "6176ac48dace6536fa299fc9211df12b3831823740803826919940b8b04a5ed8",
         "affectsGlobalScope": false
       },
@@ -1267,13 +1272,13 @@
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/services/details.service.ts": {
-        "version": "920d377f98dd746df7894af0ae8846c6162e2f0c6f4db29896129cb95822c153",
-        "signature": "7e3531ff27bdf768aa38e9f4374098e6db4182247da52ebd93394e3d383c0e5b",
+        "version": "48891faa0fd725fde0974c932209f3aed6ca77058a1c0e1c555ddf84dd917491",
+        "signature": "f1a8a400db0e824c09a7e0b6e50ca01839a7533b5f4250f6038c246baca73ec7",
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/details.controller.ts": {
         "version": "4fb05b5c89f06c1789882fb6b07cee8bd7ddfe2df7f9bb55cf6fd2b3152bc28b",
-        "signature": "74c17e072a1190c3161f99dce87289ef4b81699c568bf0f9b6cf2454ea356480",
+        "signature": "80eb943900071af784e2e48c78faa562de5aca8ef19f81dc93747b30c53ad3ea",
         "affectsGlobalScope": false
       },
       "./src/server/app.module.ts": {
@@ -3776,7 +3781,8 @@
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
         "./src/client/components/detaillist/detaillist.tsx",
-        "./src/client/components/home/home.tsx"
+        "./src/client/components/home/home.tsx",
+        "./src/common/detail.model.ts"
       ],
       "./src/client/components/detailitem/detailitem.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -3809,7 +3815,8 @@
         "./src/server/modules/details/services/details.service.ts"
       ],
       "./src/server/modules/details/services/details.service.ts": [
-        "./node_modules/@nestjs/common/index.d.ts"
+        "./node_modules/@nestjs/common/index.d.ts",
+        "./src/common/detail.model.ts"
       ],
       "./src/server/views/layout.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -5290,7 +5297,11 @@
         "./node_modules/rxjs/internal/types.d.ts"
       ],
       "./src/server/modules/details/details.controller.ts": [
+        "./src/common/detail.model.ts",
         "./src/server/modules/details/services/details.service.ts"
+      ],
+      "./src/server/modules/details/services/details.service.ts": [
+        "./src/common/detail.model.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -5744,6 +5755,7 @@
       "./src/client/components/detailitem/detailitem.tsx",
       "./src/client/components/detaillist/detaillist.tsx",
       "./src/client/components/home/home.tsx",
+      "./src/common/detail.model.ts",
       "./src/server/app.controller.ts",
       "./src/server/app.module.ts",
       "./src/server/main.ts",

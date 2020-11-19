@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { DetailItem } from '../DetailItem/DetailItem';
 
-const DetailList = ({details}) => {
-    
+const DetailList = ({ details }) => {
   return (
     <ol>
       {details.map((detail) => (
@@ -11,6 +10,5 @@ const DetailList = ({details}) => {
     </ol>
   );
 };
-
 
 export default DetailList;

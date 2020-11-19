@@ -1,22 +1,35 @@
-@import "./styles/main.scss";
+@import './styles/main.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 5vh;
+}
 
 .menu {
-    
-    list-style-type: none;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
 
-    &__item {
-        display: inline-block;
-        margin-right: 2rem;
-        font-size: 1rem;
+  &__item {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1rem;
 
-        a {
-            text-decoration: none;
-            color: $color-gray-dark;
-            text-transform: uppercase;
+    a {
+      text-decoration: none;
+      color: $color-gray-dark;
+      text-transform: uppercase;
 
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+      &:hover {
+        text-decoration: underline;
+      }
     }
+  }
 }
