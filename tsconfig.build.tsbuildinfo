@@ -226,14 +226,19 @@
         "signature": "fd0330b691c4c697c5a8c6b68bdb6727cbf966156a2e131108696a98716a5396",
         "affectsGlobalScope": false
       },
+      "./src/common/detail.model.ts": {
+        "version": "0959b3a3a8f127669621344c706645581d7d1acb5008a62c32097946704f95b7",
+        "signature": "278604533ce7674dad4cceef11413c5e2abe3411b17b96a6baef9b39c0c95cbc",
+        "affectsGlobalScope": false
+      },
       "./src/client/components/detailitem/detailitem.tsx": {
-        "version": "6cba4ef9095a312c2184741b4394d00fe9c82ba5115b28ea7f8703bb9944fd64",
-        "signature": "69b219729d1d73c96574cc326aa78a3fbd7f1dec27e4e66c69e195ee6e0302a4",
+        "version": "1ad290bed13ea75efe3ec18d42fd9f409f19493476f492e52bed8e6962fdd854",
+        "signature": "601fbab56183617c8f9dc0bc61bcfff615eba2e1bcd18bee9fecb745c2fba20c",
         "affectsGlobalScope": false
       },
       "./src/client/components/detaillist/detaillist.tsx": {
-        "version": "64057891984811dbdd9ffd047017e830f42dbee26bce3e22a841dc7f7351b0ed",
-        "signature": "c6c32d3c02d2810659b19fc0cbd8a29ee5ffb45e375b3d025f78e5be9266c072",
+        "version": "54b6ef205e07be83479a8c3a0a6def064bd7ac340035791cfea7f4212be54c50",
+        "signature": "7a39862e1581ac9fa94ffb2de0d8d8db7c90023953dafcc354bbf581dc7fdac2",
         "affectsGlobalScope": false
       },
       "./src/client/components/home/home.tsx": {
@@ -241,13 +246,8 @@
         "signature": "d9f1b09e105cbf409ec7b14271b774dc8a78a511f3480ca7c927701584359443",
         "affectsGlobalScope": false
       },
-      "./src/common/detail.model.ts": {
-        "version": "0959b3a3a8f127669621344c706645581d7d1acb5008a62c32097946704f95b7",
-        "signature": "278604533ce7674dad4cceef11413c5e2abe3411b17b96a6baef9b39c0c95cbc",
-        "affectsGlobalScope": false
-      },
       "./src/client/app.tsx": {
-        "version": "6654d5a2902e3b4d063c94b3eba9bf0574aa8639d69d2c8128531bb03d64f21e",
+        "version": "78eeb1993fc907a4c7d17f6ba9e989d073ba7c4ff9e4439dc04ca6aac31bb9f1",
         "signature": "6176ac48dace6536fa299fc9211df12b3831823740803826919940b8b04a5ed8",
         "affectsGlobalScope": false
       },
@@ -1276,13 +1276,18 @@
         "signature": "f1a8a400db0e824c09a7e0b6e50ca01839a7533b5f4250f6038c246baca73ec7",
         "affectsGlobalScope": false
       },
-      "./src/server/modules/details/details.controller.ts": {
-        "version": "4fb05b5c89f06c1789882fb6b07cee8bd7ddfe2df7f9bb55cf6fd2b3152bc28b",
-        "signature": "80eb943900071af784e2e48c78faa562de5aca8ef19f81dc93747b30c53ad3ea",
+      "./src/server/modules/details/controllers/details.controller.ts": {
+        "version": "fef1c4b580d30eb8cea4686a3801898bf8305b1178adb1863cacec1947a6fb1d",
+        "signature": "ce0bad262ee96d8274833050c18be4e845b549fe62e6b41f492e70469a9ecf18",
+        "affectsGlobalScope": false
+      },
+      "./src/server/modules/details/details.module.ts": {
+        "version": "2986dd36fcf079a15a729be0690d7b8fb9f75ca99066025b0b28dbde794afa42",
+        "signature": "83c42e5f30dcbd578c9b82d4b19761417a35332541e07190fc71356f9e504912",
         "affectsGlobalScope": false
       },
       "./src/server/app.module.ts": {
-        "version": "4553cc481b968b039ec4149894e23704bd85a20568d45d4f5fa572ee5efb6272",
+        "version": "3fb051ca6dd381cfcfa7443dbe02a970c748db715c4d5b213a8e59fa173ef734",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3785,11 +3790,13 @@
         "./src/common/detail.model.ts"
       ],
       "./src/client/components/detailitem/detailitem.tsx": [
-        "./node_modules/@types/react/index.d.ts"
+        "./node_modules/@types/react/index.d.ts",
+        "./src/common/detail.model.ts"
       ],
       "./src/client/components/detaillist/detaillist.tsx": [
         "./node_modules/@types/react/index.d.ts",
-        "./src/client/components/detailitem/detailitem.tsx"
+        "./src/client/components/detailitem/detailitem.tsx",
+        "./src/common/detail.model.ts"
       ],
       "./src/client/components/home/home.tsx": [
         "./node_modules/@types/react/index.d.ts"
@@ -3800,8 +3807,7 @@
       "./src/server/app.module.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
         "./src/server/app.controller.ts",
-        "./src/server/modules/details/details.controller.ts",
-        "./src/server/modules/details/services/details.service.ts"
+        "./src/server/modules/details/details.module.ts"
       ],
       "./src/server/main.ts": [
         "./node_modules/@nestjs/core/index.d.ts",
@@ -3810,8 +3816,13 @@
         "./node_modules/@types/node/path.d.ts",
         "./src/server/app.module.ts"
       ],
-      "./src/server/modules/details/details.controller.ts": [
+      "./src/server/modules/details/controllers/details.controller.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
+        "./src/server/modules/details/services/details.service.ts"
+      ],
+      "./src/server/modules/details/details.module.ts": [
+        "./node_modules/@nestjs/common/index.d.ts",
+        "./src/server/modules/details/controllers/details.controller.ts",
         "./src/server/modules/details/services/details.service.ts"
       ],
       "./src/server/modules/details/services/details.service.ts": [
@@ -5296,7 +5307,15 @@
       "./node_modules/rxjs/internal/util/pipe.d.ts": [
         "./node_modules/rxjs/internal/types.d.ts"
       ],
-      "./src/server/modules/details/details.controller.ts": [
+      "./src/client/components/detailitem/detailitem.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/common/detail.model.ts"
+      ],
+      "./src/client/components/detaillist/detaillist.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/common/detail.model.ts"
+      ],
+      "./src/server/modules/details/controllers/details.controller.ts": [
         "./src/common/detail.model.ts",
         "./src/server/modules/details/services/details.service.ts"
       ],
@@ -5759,7 +5778,8 @@
       "./src/server/app.controller.ts",
       "./src/server/app.module.ts",
       "./src/server/main.ts",
-      "./src/server/modules/details/details.controller.ts",
+      "./src/server/modules/details/controllers/details.controller.ts",
+      "./src/server/modules/details/details.module.ts",
       "./src/server/modules/details/services/details.service.ts",
       "./src/server/views/layout.tsx"
     ]
