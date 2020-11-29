@@ -36,7 +36,6 @@ const App = () => {
         </Route>
         <Route path="/details">
           <div>
-            <h1>Список деталей</h1>
             <DetailList details={details}></DetailList>
           </div>
         </Route>

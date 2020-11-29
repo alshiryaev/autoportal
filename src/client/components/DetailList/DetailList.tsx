@@ -1,13 +1,15 @@
 import * as React from 'react';
+import { Detail } from 'src/common/detail.model';
 import { DetailItem } from '../DetailItem/DetailItem';
+import './DetailList.scss';
 
-const DetailList = ({ details }) => {
+const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
   return (
-    <ol>
+    <ul className="detail-list">
       {details.map((detail) => (
         <DetailItem detail={detail}></DetailItem>
       ))}
-    </ol>
+    </ul>
   );
 };
 
