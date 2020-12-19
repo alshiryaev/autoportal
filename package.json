@@ -6,7 +6,6 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "prebuild": "rimraf dist",
     "build": "tsc -b",
     "build:client": "webpack",
     "build:client:dev": "webpack --watch",

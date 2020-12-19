@@ -2606,6 +2606,11 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "affectsGlobalScope": false
       },
+      "./src/server/modules/database/database.module.ts": {
+        "version": "ff1eeeb493723eb4f5c5b62ffc708201d9ac79c6d45f2a4d28b4db84bcf75586",
+        "signature": "a7ad670f373dd5665c73c7dc09a8e28b976a63bd7ed08def7c1c13456e87d3dc",
+        "affectsGlobalScope": false
+      },
       "./src/server/database/entities/detail.entity.ts": {
         "version": "d02912002d2a44317265c7d7ec248ece652d009720f1577ab5e9d22e9ea90ac2",
         "signature": "e6d2af897c29539acfcbb871fc12d495696d4d852684a3d98c78441fb8c1a03e",
@@ -2627,7 +2632,7 @@
         "affectsGlobalScope": false
       },
       "./src/server/app.module.ts": {
-        "version": "bd4cd1c063124659ca0b06142d0503f899d0fc6b23cecb55317edd48738b966a",
+        "version": "007c51d4fb9a85a10b1ae6095a7724249bff63dd0743728dc03a2a1f891bb520",
         "signature": "15a7a2df96a0044b095d9658ac63e44331c417dfcc6f817fc8fd979232df5df1",
         "affectsGlobalScope": false
       },
@@ -3319,16 +3324,6 @@
       "./src/server/database/migrations/1607871696884-details.ts": {
         "version": "20dfede086fbb25c39941092ebb360dfdabe56dd5c47771bb8e8ac6d1754f892",
         "signature": "4d4c515ff7df363273e4cdad063b9fee4605dea687c1f1239c15d4c79596d6af",
-        "affectsGlobalScope": false
-      },
-      "./src/server/database/migrations/1607974872265-details-seed.ts": {
-        "version": "d94e96d15c9e4bb1a10a3d9a8d0d4c1cf1715c7bc912a0d9e8b38ae9051abbed",
-        "signature": "425ff71f3a7bfc47e170529a9357c1b0bc9fee19a346846405b88cb5c077f35a",
-        "affectsGlobalScope": false
-      },
-      "./src/server/modules/database/database.module.ts": {
-        "version": "3ef38948fdc0bb2ffac0c61d8937c360a56d822d6fddf18794e4f3b7081c32d7",
-        "signature": "a7ad670f373dd5665c73c7dc09a8e28b976a63bd7ed08def7c1c13456e87d3dc",
         "affectsGlobalScope": false
       },
       "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": {
@@ -6362,19 +6357,15 @@
       ],
       "./src/server/app.module.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
-        "./node_modules/@nestjs/typeorm/index.d.ts",
         "./node_modules/typeorm/index.d.ts",
         "./src/server/app.controller.ts",
+        "./src/server/modules/database/database.module.ts",
         "./src/server/modules/details/details.module.ts"
       ],
       "./src/server/database/entities/detail.entity.ts": [
         "./node_modules/typeorm/index.d.ts"
       ],
       "./src/server/database/migrations/1607871696884-details.ts": [
-        "./node_modules/typeorm/index.d.ts",
-        "./src/server/database/entities/detail.entity.ts"
-      ],
-      "./src/server/database/migrations/1607974872265-details-seed.ts": [
         "./node_modules/typeorm/index.d.ts",
         "./src/server/database/entities/detail.entity.ts"
       ],
@@ -6386,7 +6377,8 @@
         "./src/server/app.module.ts"
       ],
       "./src/server/modules/database/database.module.ts": [
-        "./node_modules/@nestjs/common/index.d.ts"
+        "./node_modules/@nestjs/common/index.d.ts",
+        "./node_modules/@nestjs/typeorm/index.d.ts"
       ],
       "./src/server/modules/details/controllers/details.controller.spec.ts": [
         "./node_modules/@nestjs/testing/index.d.ts",
@@ -9061,9 +9053,6 @@
       "./src/server/database/migrations/1607871696884-details.ts": [
         "./node_modules/typeorm/index.d.ts"
       ],
-      "./src/server/database/migrations/1607974872265-details-seed.ts": [
-        "./node_modules/typeorm/index.d.ts"
-      ],
       "./src/server/modules/details/controllers/details.controller.ts": [
         "./src/server/database/entities/detail.entity.ts",
         "./src/server/modules/details/services/details.service.ts"
@@ -9771,7 +9760,6 @@
       "./src/server/app.module.ts",
       "./src/server/database/entities/detail.entity.ts",
       "./src/server/database/migrations/1607871696884-details.ts",
-      "./src/server/database/migrations/1607974872265-details-seed.ts",
       "./src/server/main.ts",
       "./src/server/modules/database/database.module.ts",
       "./src/server/modules/details/controllers/details.controller.spec.ts",
