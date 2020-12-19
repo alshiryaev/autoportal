@@ -12,5 +12,5 @@ export class DetailEntity {
   price: number;
 
   @Column()
-  description: string;
+  description?: string;
 }

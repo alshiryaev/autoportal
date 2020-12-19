@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { DetailEntity } from 'src/server/database/entities/detail.entity';
+import { DetailEntity } from '../../database/entities/detail.entity';
 import { DetailsController } from './controllers/details.controller';
 import { DetailsService } from './services/details.service';
 
