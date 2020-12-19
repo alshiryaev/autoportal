@@ -37,3 +37,4 @@ lerna-debug.log*
 
 tsconfig.build.tsbuildinfo
 tsconfig.tsbuildinfo
+ormconfig.env
