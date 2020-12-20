@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-import { DetailEntity } from 'src/server/database/entities/detail.entity';
+import { DetailEntity } from '../../../database/entities/detail.entity';
 import { DetailsService } from '../services/details.service';
 
 @Controller('api/details')
