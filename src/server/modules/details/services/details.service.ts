@@ -1,35 +1,46 @@
 import { Injectable } from '@nestjs/common';
-import { Detail } from 'src/common/detail.model';
+import { InjectRepository } from '@nestjs/typeorm';
+import { DetailEntity } from '../../../database/entities/detail.entity';
+import { Repository } from 'typeorm';
 import { v4 } from 'uuid';
-
 @Injectable()
 export class DetailsService {
-  getDetails(): Detail[] {
-    return [
+  constructor(
+    @InjectRepository(DetailEntity)
+    private readonly detailRepository: Repository<DetailEntity>,
+  ) {}
+
+  getDetails(): Promise<DetailEntity[]> {
+    return this.detailRepository.find();
+  }
+
+  addDetail(detail: DetailEntity): Promise<DetailEntity> {
+    return this.detailRepository.save(detail);
+  }
+
+  seedDetails(): Promise<DetailEntity[]> {
+    const details = [
       {
         id: v4(),
         name: 'H4 Osram AllSeasons',
         price: 800,
-        number: 4,
       },
       {
         id: v4(),
         name: 'H1 Маяк',
         price: 400,
-        number: 2,
       },
       {
         id: v4(),
         name: 'Дворники всесезонные',
         price: 800,
-        number: 4,
       },
       {
         id: v4(),
         name: 'Дворники летние',
         price: 900,
-        number: 5,
       },
     ];
+    return this.detailRepository.save(details);
   }
 }
