@@ -241,13 +241,18 @@
         "signature": "7a39862e1581ac9fa94ffb2de0d8d8db7c90023953dafcc354bbf581dc7fdac2",
         "affectsGlobalScope": false
       },
+      "./src/client/components/adddetail/adddetail.tsx": {
+        "version": "4f40137a11b3482fe3f100f7d6a38d1318bbb72ce006dda69251baaf430c0d4d",
+        "signature": "6fc7ea845e45ce07d7c0b82af8365ccbd81aa6e01dc70af3931b8402e9017577",
+        "affectsGlobalScope": false
+      },
       "./src/client/components/home/home.tsx": {
         "version": "26fa7cec92cc309eece71a888ff1749cf120bd25719af1f32de1404bde1b171d",
         "signature": "d9f1b09e105cbf409ec7b14271b774dc8a78a511f3480ca7c927701584359443",
         "affectsGlobalScope": false
       },
       "./src/client/app.tsx": {
-        "version": "78eeb1993fc907a4c7d17f6ba9e989d073ba7c4ff9e4439dc04ca6aac31bb9f1",
+        "version": "b0ae0a007fe765e6653047da339a2fb8a23d3afeb0b1691abcb9a385e95146d7",
         "signature": "6176ac48dace6536fa299fc9211df12b3831823740803826919940b8b04a5ed8",
         "affectsGlobalScope": false
       },
@@ -2622,8 +2627,8 @@
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/controllers/details.controller.ts": {
-        "version": "bf724adeadc3c10bf0229dc8e65c9edea22299281d0d8b876572aeb2cb5b5a5c",
-        "signature": "092dc2969e1668daa54833727209a4180fcf829b6af46ae531694dbc7641cd22",
+        "version": "5fe8221715a35b93c809f43bf97efbbe266e41aad6f2062586ad44553f443dbb",
+        "signature": "73dde0c09c2124ee05de5daaa738552fc2f48610944f04f0c107ef2a775b4f0c",
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/details.module.ts": {
@@ -6259,9 +6264,13 @@
       "./src/client/app.tsx": [
         "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
+        "./src/client/components/adddetail/adddetail.tsx",
         "./src/client/components/detaillist/detaillist.tsx",
         "./src/client/components/home/home.tsx",
         "./src/common/detail.model.ts"
+      ],
+      "./src/client/components/adddetail/adddetail.tsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/client/components/detailitem/detailitem.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -9661,6 +9670,7 @@
       "./node_modules/typescript/lib/lib.scripthost.d.ts",
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/client/app.tsx",
+      "./src/client/components/adddetail/adddetail.tsx",
       "./src/client/components/detailitem/detailitem.tsx",
       "./src/client/components/detaillist/detaillist.tsx",
       "./src/client/components/home/home.tsx",

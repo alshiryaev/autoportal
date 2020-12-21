@@ -1,0 +1,32 @@
+.add-form {
+    h3 {
+        text-align: center;
+        color: gray;
+    }
+    h1 {
+        color: black;
+        text-align: center;
+    }
+    input {
+        height: 30px;
+        width: 400px;
+        margin-left: 500px;
+        color: tomato;
+        border: gray solid 1px;
+    }
+    button {
+        font-size: larger;
+        margin-top: 20px;
+        margin-left: 500px;
+        height: 40px;
+        width: 407px;
+        border-radius: 5px;
+        background-color: tomato;
+        &:hover {
+            background-color: gray;
+            transition: all .5s ease-in-out;
+            border: tomato solid 2px;
+            color: tomato;
+        }
+    }
+}
