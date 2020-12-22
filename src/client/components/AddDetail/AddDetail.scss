@@ -8,11 +8,12 @@
         text-align: center;
     }
     input {
-        height: 30px;
-        width: 400px;
-        margin-left: 500px;
+        height: 50px;
+        width: 600px;
+        margin-left: 400px;
         color: tomato;
-        border: gray solid 1px;
+        border: blue solid 3px;
+        border-radius: 3px;
     }
     button {
         font-size: larger;
@@ -22,11 +23,15 @@
         width: 407px;
         border-radius: 5px;
         background-color: tomato;
+        transition: all .5s ease-in-out;
         &:hover {
-            background-color: gray;
-            transition: all .5s ease-in-out;
+            background-color: gray;            
             border: tomato solid 2px;
-            color: tomato;
+            color: #fff;
+        }
+        &:disabled {
+            background-color: #5a5a5a;
+            color: #eee;
         }
     }
 }
