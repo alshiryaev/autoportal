@@ -9,8 +9,12 @@
     }
     input {
         height: 50px;
-        width: 600px;
-        margin-left: 400px;
+        width: 600px; 
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+        flex-direction: column;
         color: tomato;
         border: blue solid 3px;
         border-radius: 3px;

@@ -6,7 +6,7 @@ function AddDetail() {
     const [name, setName] = React.useState<string>(''); 
     const [price, setPrice] = React.useState<number>(0); 
     const [isValid, setIsValid] = React.useState<boolean>(false);
-
+ 
     function  nameInputChange(event) {
         const {value} = event.target;
         setName(value);
@@ -27,13 +27,16 @@ function AddDetail() {
     function submitForm() {
         event.preventDefault();
          const obj = {
-            name,
+            name, 
             price
         }
 
         fetch('http://127.0.0.1/api/details', {
-            method: "post",
-            body: JSON.stringify(obj)
+            method: "POST",
+            body: JSON.stringify(obj),
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8',
+                },
         })
     }
 
