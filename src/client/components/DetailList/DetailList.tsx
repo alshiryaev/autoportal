@@ -5,11 +5,14 @@ import './DetailList.scss';
 
 const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
   return (
-    <ul className="detail-list">
-      {details.map((detail) => (
-        <DetailItem detail={detail}></DetailItem>
-      ))}
-    </ul>
+    <React.Fragment>
+      <header className="page-header">Список деталей</header>
+      <ul className="detail-list">
+        {details.map((detail) => (
+          <DetailItem detail={detail}></DetailItem>
+        ))}
+      </ul>
+    </React.Fragment>
   );
 };
 

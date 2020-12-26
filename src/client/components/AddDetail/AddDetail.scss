@@ -1,41 +1,38 @@
-.add-form {
-    h3 {
-        text-align: center;
-        color: gray;
+.detail-form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    &__label {
+        font-size: .8rem;
     }
-    h1 {
-        color: black;
-        text-align: center;
-    }
-    input {
-        height: 50px;
-        width: 600px; 
-        display: flex;
-        justify-content: center;
-        align-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        color: tomato;
-        border: blue solid 3px;
+
+    &__input {
+        display: block;
+        height: 30px;
+        min-width: 50%; 
+        padding: 0 10px;
         border-radius: 3px;
+        border: 1px solid #a09a9a;
+        margin-bottom: 30px;
     }
-    button {
+    &__submit-button {
         font-size: larger;
-        margin-top: 20px;
-        margin-left: 500px;
         height: 40px;
-        width: 407px;
-        border-radius: 5px;
+        max-width: 53%;
         background-color: tomato;
         transition: all .5s ease-in-out;
+        border: 1px solid #a09a9a;
+        color: #fff;
+
         &:hover {
-            background-color: gray;            
-            border: tomato solid 2px;
+            background-color: gray;
             color: #fff;
         }
         &:disabled {
-            background-color: #5a5a5a;
-            color: #eee;
+            background-color: #929292;
+            color: rgb(192, 190, 190);
         }
     }
 }
