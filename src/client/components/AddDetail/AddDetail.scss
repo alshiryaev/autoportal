@@ -1,0 +1,38 @@
+.detail-form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    &__label {
+        font-size: .8rem;
+    }
+
+    &__input {
+        display: block;
+        height: 30px;
+        min-width: 50%; 
+        padding: 0 10px;
+        border-radius: 3px;
+        border: 1px solid #a09a9a;
+        margin-bottom: 30px;
+    }
+    &__submit-button {
+        font-size: larger;
+        height: 40px;
+        max-width: 53%;
+        background-color: tomato;
+        transition: all .5s ease-in-out;
+        border: 1px solid #a09a9a;
+        color: #fff;
+
+        &:hover {
+            background-color: gray;
+            color: #fff;
+        }
+        &:disabled {
+            background-color: #929292;
+            color: rgb(192, 190, 190);
+        }
+    }
+}
