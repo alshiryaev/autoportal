@@ -18,6 +18,11 @@ export class DetailsService {
     return this.detailRepository.save(detail);
   }
 
+  async deleteDetail(id: string) {
+    const detail = await this.detailRepository.findByIds([id]);
+    return this.detailRepository.remove(detail);
+  }
+
   seedDetails(): Promise<DetailEntity[]> {
     const details = [
       {
