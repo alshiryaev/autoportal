@@ -242,7 +242,7 @@
         "affectsGlobalScope": false
       },
       "./src/client/components/adddetail/adddetail.tsx": {
-        "version": "72249813df80c100f10b5a2d8e7661f797b47f653fee0fc5f213ee218592799f",
+        "version": "77f2cd521b698e3e2aaf322451bdbad9c8418440f1c6bd5c55e6e2d246b148a7",
         "signature": "6fc7ea845e45ce07d7c0b82af8365ccbd81aa6e01dc70af3931b8402e9017577",
         "affectsGlobalScope": false
       },

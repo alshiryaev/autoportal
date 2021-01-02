@@ -1,38 +1,39 @@
 .detail-form {
+  $green: rgb(44, 170, 50);
 
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 
-    &__label {
-        font-size: .8rem;
+  &__label {
+    font-size: 0.8rem;
+  }
+
+  &__input {
+    display: block;
+    height: 30px;
+    min-width: 50%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid #a09a9a;
+    margin-bottom: 30px;
+  }
+  &__submit-button {
+    font-size: larger;
+    height: 40px;
+    max-width: 53%;
+    background-color: $green;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+
+    &:hover {
+      background-color: darken($green, 5%);
+
+      color: #fff;
     }
-
-    &__input {
-        display: block;
-        height: 30px;
-        min-width: 50%; 
-        padding: 0 10px;
-        border-radius: 3px;
-        border: 1px solid #a09a9a;
-        margin-bottom: 30px;
+    &:disabled {
+      background-color: #929292;
+      color: rgb(192, 190, 190);
     }
-    &__submit-button {
-        font-size: larger;
-        height: 40px;
-        max-width: 53%;
-        background-color: tomato;
-        transition: all .5s ease-in-out;
-        border: 1px solid #a09a9a;
-        color: #fff;
-
-        &:hover {
-            background-color: gray;
-            color: #fff;
-        }
-        &:disabled {
-            background-color: #929292;
-            color: rgb(192, 190, 190);
-        }
-    }
+  }
 }

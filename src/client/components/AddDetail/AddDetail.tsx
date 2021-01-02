@@ -15,7 +15,6 @@ function AddDetail() {
 
   function priceInputChange(event) {
     const { value } = event.target;
-    console.log(value);
     setPrice(value);
     setCommonValid();
   }
@@ -26,14 +25,12 @@ function AddDetail() {
 
   function submitForm(event) {
     event.preventDefault();
-    const obj = {
-      name,
-      price,
-    };
-
-    fetch('http://127.0.0.1/api/details', {
+    fetch('/api/details', {
       method: 'POST',
-      body: JSON.stringify(obj),
+      body: JSON.stringify({
+        name,
+        price,
+      }),
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
       },
@@ -65,7 +62,7 @@ function AddDetail() {
           />
         </label>
         <button
-          className="detail-form__submit-button"
+          className="button detail-form__submit-button"
           disabled={!isValid}
           type="submit"
         >
