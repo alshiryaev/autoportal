@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, Post, Delete, Param } from '@nestjs/common';
 import { DetailEntity } from '../../../database/entities/detail.entity';
 import { DetailsService } from '../services/details.service';
 
@@ -19,7 +19,6 @@ export class DetailsController {
   addDetail(@Body() detail: DetailEntity) {
     return this.detailsService.addDetail(detail);
   }
-
   @Delete(':id')
   deleteDetail(@Param('id') id: string) {
     return this.detailsService.deleteDetail(id);

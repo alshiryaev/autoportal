@@ -231,8 +231,13 @@
         "signature": "278604533ce7674dad4cceef11413c5e2abe3411b17b96a6baef9b39c0c95cbc",
         "affectsGlobalScope": false
       },
+      "./src/client/components/deletedetail/deletedetail.tsx": {
+        "version": "9ba6d707b2b2369d0f8413c388627b1f6182e906cf478d3fac5ae811e78ef085",
+        "signature": "0ccd17ca46b41cb837992524aa399611e03cee5a25ac0cfafa91c00df84cc68f",
+        "affectsGlobalScope": false
+      },
       "./src/client/components/detailitem/detailitem.tsx": {
-        "version": "1ad290bed13ea75efe3ec18d42fd9f409f19493476f492e52bed8e6962fdd854",
+        "version": "bbf0e39d8a87dec22ebf342b4a19d16134d3f437c7a14472d46ec9723d3a160a",
         "signature": "601fbab56183617c8f9dc0bc61bcfff615eba2e1bcd18bee9fecb745c2fba20c",
         "affectsGlobalScope": false
       },
@@ -2627,7 +2632,7 @@
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/controllers/details.controller.ts": {
-        "version": "741cf39c3f8cfa2a299918fbb00d7eb7ea4e1de5f8d09724e5d432327063bb08",
+        "version": "fbdaa6d2cab1f1fba7599218fe4947d2ef5db80d5422c62b8947a367bf6769e0",
         "signature": "822a0a2c8a66c99ffebe242df9a776b68bf0e52abda0dc514ca33c429e5f1059",
         "affectsGlobalScope": false
       },
@@ -6272,8 +6277,12 @@
       "./src/client/components/adddetail/adddetail.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
+      "./src/client/components/deletedetail/deletedetail.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
       "./src/client/components/detailitem/detailitem.tsx": [
         "./node_modules/@types/react/index.d.ts",
+        "./src/client/components/deletedetail/deletedetail.tsx",
         "./src/common/detail.model.ts"
       ],
       "./src/client/components/detaillist/detaillist.tsx": [
@@ -9671,6 +9680,7 @@
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/client/app.tsx",
       "./src/client/components/adddetail/adddetail.tsx",
+      "./src/client/components/deletedetail/deletedetail.tsx",
       "./src/client/components/detailitem/detailitem.tsx",
       "./src/client/components/detaillist/detaillist.tsx",
       "./src/client/components/home/home.tsx",
