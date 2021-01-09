@@ -3,7 +3,6 @@ import { Detail } from 'src/common/detail.model';
 import './DetailItem.scss';
 
 export const DetailItem: React.FC<{ detail: Detail }> = ({ detail }) => {
-  console.log(detail);
   return (
     <li className="detail__item">
       <div className="detail-card">
