@@ -232,12 +232,12 @@
         "affectsGlobalScope": false
       },
       "./src/client/components/deletedetail/deletedetail.tsx": {
-        "version": "9ba6d707b2b2369d0f8413c388627b1f6182e906cf478d3fac5ae811e78ef085",
-        "signature": "0ccd17ca46b41cb837992524aa399611e03cee5a25ac0cfafa91c00df84cc68f",
+        "version": "855ce592087122b45dae1422690b7d909a332dac2b4545b27a493a8cb4f4e7ad",
+        "signature": "82a196ac7724564164684da9fbb44f21e8e4cf9351ea94d1ec404ca4bef17bdc",
         "affectsGlobalScope": false
       },
       "./src/client/components/detailitem/detailitem.tsx": {
-        "version": "bbf0e39d8a87dec22ebf342b4a19d16134d3f437c7a14472d46ec9723d3a160a",
+        "version": "6424264a599b06f3d929f6c91645a3254e29b326bed5c46c236733d722d34865",
         "signature": "601fbab56183617c8f9dc0bc61bcfff615eba2e1bcd18bee9fecb745c2fba20c",
         "affectsGlobalScope": false
       },
@@ -6275,9 +6275,6 @@
         "./src/common/detail.model.ts"
       ],
       "./src/client/components/adddetail/adddetail.tsx": [
-        "./node_modules/@types/react/index.d.ts"
-      ],
-      "./src/client/components/deletedetail/deletedetail.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
       "./src/client/components/detailitem/detailitem.tsx": [

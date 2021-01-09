@@ -1,18 +1,15 @@
-import * as React from 'react';
-
-function del() { 
-    fetch('http://127.0.0.1/api/details', {
+function del(id: string) { 
+    fetch(`/api/details/${id}`,{
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json;charset=utf-8',
         },
-      });
-      alert("Удаление прошло успешно!");
+      })
 }
 
-function DeleteDetail() {
+function DeleteDetail(id: string) {
     if(confirm("Вы уверены, что хотите удалить деталь?")) {
-        del();
+        del(id);
     }
     else {
         alert("Отменено");
