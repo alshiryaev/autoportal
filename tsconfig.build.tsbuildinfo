@@ -231,18 +231,18 @@
         "signature": "278604533ce7674dad4cceef11413c5e2abe3411b17b96a6baef9b39c0c95cbc",
         "affectsGlobalScope": false
       },
-      "./src/client/components/deletedetail/deletedetail.tsx": {
-        "version": "855ce592087122b45dae1422690b7d909a332dac2b4545b27a493a8cb4f4e7ad",
-        "signature": "82a196ac7724564164684da9fbb44f21e8e4cf9351ea94d1ec404ca4bef17bdc",
-        "affectsGlobalScope": false
-      },
       "./src/client/components/detailitem/detailitem.tsx": {
-        "version": "6424264a599b06f3d929f6c91645a3254e29b326bed5c46c236733d722d34865",
+        "version": "0f9570e3566fdf88d72dfe42edf76ef1e5ef1dd4514c5efa3cf83af45d9c0455",
         "signature": "601fbab56183617c8f9dc0bc61bcfff615eba2e1bcd18bee9fecb745c2fba20c",
         "affectsGlobalScope": false
       },
+      "./src/client/services/api.service.ts": {
+        "version": "552cac13258e8ec108e46fc0428b5beba9389e9e5ec7ffc270a31059f17fd9a3",
+        "signature": "b34b6ddd562635622401b02a76000548648e058cd93602698763a5617fc7889e",
+        "affectsGlobalScope": false
+      },
       "./src/client/components/detaillist/detaillist.tsx": {
-        "version": "28149ad5b69407b294b2b9504b50056cea5cd9f48fa41b11d9130a36041002ca",
+        "version": "ef42dc69509173b6b6ebca5a7e445550c57f6dc2dc5ccd1b92221a39a8bc9391",
         "signature": "7a39862e1581ac9fa94ffb2de0d8d8db7c90023953dafcc354bbf581dc7fdac2",
         "affectsGlobalScope": false
       },
@@ -6279,12 +6279,12 @@
       ],
       "./src/client/components/detailitem/detailitem.tsx": [
         "./node_modules/@types/react/index.d.ts",
-        "./src/client/components/deletedetail/deletedetail.tsx",
         "./src/common/detail.model.ts"
       ],
       "./src/client/components/detaillist/detaillist.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/client/components/detailitem/detailitem.tsx",
+        "./src/client/services/api.service.ts",
         "./src/common/detail.model.ts"
       ],
       "./src/client/components/home/home.tsx": [
@@ -9677,10 +9677,10 @@
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "./src/client/app.tsx",
       "./src/client/components/adddetail/adddetail.tsx",
-      "./src/client/components/deletedetail/deletedetail.tsx",
       "./src/client/components/detailitem/detailitem.tsx",
       "./src/client/components/detaillist/detaillist.tsx",
       "./src/client/components/home/home.tsx",
+      "./src/client/services/api.service.ts",
       "./src/common/detail.model.ts",
       "./src/server/app.controller.ts",
       "./src/server/app.module.ts",
