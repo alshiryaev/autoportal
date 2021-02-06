@@ -1,3 +1,44 @@
+@mixin blockAfterBefore($color) {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background-color: $color;
+  transform: translateX(-50%);
+}
+
 .detail-list {
-    list-style-type: none;
+  list-style-type: none;
+
+  .detail-container {
+    display: flex;
+
+    .detail-item {
+      width: 90%;
+    }
+
+    .button-delete {
+      padding: 10px;
+      color: #ff0000;
+      font-size: 5rem;
+      position: relative;
+      transition: all .3s;
+      width: 50px;
+      height: 50px;
+
+      &::after {
+        @include blockAfterBefore(#ff0000);
+        transform: rotate(-45deg) translateX(-50%);
+      }
+
+      &::before {
+        @include blockAfterBefore(#ff0000);
+        transform: rotate(45deg) translateX(-50%);
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
 }

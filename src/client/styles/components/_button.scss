@@ -1,3 +1,16 @@
 .button {
-    cursor: pointer;
+  border: 1px solid #999;
+  outline: none;
+  cursor: pointer;
+
+  &-warn {
+    background-color: tomato;
+    color: #fff;
+  }
+
+  &-flat {
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
 }

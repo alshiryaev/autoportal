@@ -1,0 +1,7 @@
+@mixin blockAfterBefore($color) {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: $color;
+}
