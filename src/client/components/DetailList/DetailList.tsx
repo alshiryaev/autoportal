@@ -5,13 +5,9 @@ import { deleteDetail as apiDelete } from '../../services/api.service';
 import './DetailList.scss';
 
 const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
-
   function deleteDetail(id: string) {
-    if (confirm("Вы уверены, что хотите удалить деталь?")) {
-      apiDelete(id).then(() => alert("Удаление успешно завершено."))
-    }
-    else {
-      alert("Отменено");
+    if (confirm('Вы уверены, что хотите удалить деталь?')) {
+      apiDelete(id).then(() => alert('Удаление успешно завершено.'));
     }
   }
 
@@ -21,13 +17,15 @@ const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
       <ul className="detail-list">
         {details.map((detail) => (
           <li className="detail-container">
-            <div className="details-item">
+            <div className="detail-item">
               <DetailItem detail={detail}></DetailItem>
             </div>
-            <button className="detail-container__delete" onClick={() => deleteDetail(detail.id)}>X</button>
+            <button
+              className="button button-flat button-delete"
+              onClick={() => deleteDetail(detail.id)}
+            ></button>
           </li>
         ))}
-
       </ul>
     </React.Fragment>
   );

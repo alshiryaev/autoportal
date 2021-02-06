@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
 import DetailList from './components/DetailList/DetailList';
-import AddDetail from "./components/AddDetail/AddDetail";
+import AddDetail from './components/AddDetail/AddDetail';
 import Home from './components/Home/Home';
 
 import './App.scss';
@@ -45,7 +45,7 @@ const App = () => {
         </Route>
         <Route path="/addDetail">
           <div>
-          <AddDetail />
+            <AddDetail />
           </div>
         </Route>
       </Switch>
