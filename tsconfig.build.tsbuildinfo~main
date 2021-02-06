@@ -232,22 +232,17 @@
         "affectsGlobalScope": false
       },
       "./src/client/components/detailitem/detailitem.tsx": {
-        "version": "0f9570e3566fdf88d72dfe42edf76ef1e5ef1dd4514c5efa3cf83af45d9c0455",
+        "version": "77fb40df2ba491804fb1492a9c5f0b83e5f7a68b9b38d9b2eb3539eb88ff74d3",
         "signature": "601fbab56183617c8f9dc0bc61bcfff615eba2e1bcd18bee9fecb745c2fba20c",
         "affectsGlobalScope": false
       },
-      "./src/client/services/api.service.ts": {
-        "version": "552cac13258e8ec108e46fc0428b5beba9389e9e5ec7ffc270a31059f17fd9a3",
-        "signature": "b34b6ddd562635622401b02a76000548648e058cd93602698763a5617fc7889e",
-        "affectsGlobalScope": false
-      },
       "./src/client/components/detaillist/detaillist.tsx": {
-        "version": "ef42dc69509173b6b6ebca5a7e445550c57f6dc2dc5ccd1b92221a39a8bc9391",
+        "version": "28149ad5b69407b294b2b9504b50056cea5cd9f48fa41b11d9130a36041002ca",
         "signature": "7a39862e1581ac9fa94ffb2de0d8d8db7c90023953dafcc354bbf581dc7fdac2",
         "affectsGlobalScope": false
       },
       "./src/client/components/adddetail/adddetail.tsx": {
-        "version": "72249813df80c100f10b5a2d8e7661f797b47f653fee0fc5f213ee218592799f",
+        "version": "77f2cd521b698e3e2aaf322451bdbad9c8418440f1c6bd5c55e6e2d246b148a7",
         "signature": "6fc7ea845e45ce07d7c0b82af8365ccbd81aa6e01dc70af3931b8402e9017577",
         "affectsGlobalScope": false
       },
@@ -2632,7 +2627,7 @@
         "affectsGlobalScope": false
       },
       "./src/server/modules/details/controllers/details.controller.ts": {
-        "version": "fbdaa6d2cab1f1fba7599218fe4947d2ef5db80d5422c62b8947a367bf6769e0",
+        "version": "741cf39c3f8cfa2a299918fbb00d7eb7ea4e1de5f8d09724e5d432327063bb08",
         "signature": "822a0a2c8a66c99ffebe242df9a776b68bf0e52abda0dc514ca33c429e5f1059",
         "affectsGlobalScope": false
       },
@@ -3336,51 +3331,6 @@
         "signature": "4d4c515ff7df363273e4cdad063b9fee4605dea687c1f1239c15d4c79596d6af",
         "affectsGlobalScope": false
       },
-      "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": {
-        "version": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52",
-        "signature": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nestjs/testing/testing-module.d.ts": {
-        "version": "1cb85d69d6e68b4fcb46c6e121781e417f5784c1c0bd919a9cc4a00c6243c582",
-        "signature": "1cb85d69d6e68b4fcb46c6e121781e417f5784c1c0bd919a9cc4a00c6243c582",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nestjs/testing/testing-module.builder.d.ts": {
-        "version": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b",
-        "signature": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": {
-        "version": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d",
-        "signature": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nestjs/testing/interfaces/index.d.ts": {
-        "version": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6",
-        "signature": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nestjs/testing/test.d.ts": {
-        "version": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737",
-        "signature": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@nestjs/testing/index.d.ts": {
-        "version": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0",
-        "signature": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0",
-        "affectsGlobalScope": false
-      },
-      "./src/server/modules/details/controllers/details.controller.spec.ts": {
-        "version": "0bcf668fb79806eb34a5896a53750ede72e864303ef62d3496364e8a1c77d01a",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "./src/server/modules/details/services/details.service.spec.ts": {
-        "version": "48534b001980a4a0a22ba99c34a06162ce598f33b2eb991e5ad586145386dfa7",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
       "./src/server/views/layout.tsx": {
         "version": "944e7724699d995adc1b7b030f906f85ac87c94f82245c4fbec73f192d6d764d",
         "signature": "0a33f8c4424a94c0858a75ac68cecdd7fd08672be99c4a5de8367c04a15184cd",
@@ -3711,7 +3661,7 @@
       "incremental": true,
       "rootDir": "./src",
       "jsx": 2,
-      "configFilePath": "./tsconfig.json"
+      "configFilePath": "./tsconfig.build.json"
     },
     "referencedMap": {
       "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
@@ -4501,38 +4451,6 @@
       ],
       "./node_modules/@nestjs/swagger/index.d.ts": [
         "./node_modules/@nestjs/swagger/dist/index.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/index.d.ts": [
-        "./node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "./node_modules/@nestjs/testing/test.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/interfaces/index.d.ts": [
-        "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
-        "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/test.d.ts": [
-        "./node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/testing-module.builder.d.ts": [
-        "./node_modules/@nestjs/common/interfaces/index.d.ts",
-        "./node_modules/@nestjs/core/metadata-scanner.d.ts",
-        "./node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/testing-module.d.ts": [
-        "./node_modules/@nestjs/common/index.d.ts",
-        "./node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        "./node_modules/@nestjs/core/application-config.d.ts",
-        "./node_modules/@nestjs/core/index.d.ts",
-        "./node_modules/@nestjs/core/injector/container.d.ts",
-        "./node_modules/@nestjs/core/injector/module.d.ts"
       ],
       "./node_modules/@nestjs/typeorm/dist/common/index.d.ts": [
         "./node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
@@ -6361,7 +6279,6 @@
       "./src/client/components/detaillist/detaillist.tsx": [
         "./node_modules/@types/react/index.d.ts",
         "./src/client/components/detailitem/detailitem.tsx",
-        "./src/client/services/api.service.ts",
         "./src/common/detail.model.ts"
       ],
       "./src/client/components/home/home.tsx": [
@@ -6395,10 +6312,6 @@
         "./node_modules/@nestjs/common/index.d.ts",
         "./node_modules/@nestjs/typeorm/index.d.ts"
       ],
-      "./src/server/modules/details/controllers/details.controller.spec.ts": [
-        "./node_modules/@nestjs/testing/index.d.ts",
-        "./src/server/modules/details/controllers/details.controller.ts"
-      ],
       "./src/server/modules/details/controllers/details.controller.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
         "./src/server/database/entities/detail.entity.ts",
@@ -6409,10 +6322,6 @@
         "./node_modules/@nestjs/typeorm/index.d.ts",
         "./src/server/database/entities/detail.entity.ts",
         "./src/server/modules/details/controllers/details.controller.ts",
-        "./src/server/modules/details/services/details.service.ts"
-      ],
-      "./src/server/modules/details/services/details.service.spec.ts": [
-        "./node_modules/@nestjs/testing/index.d.ts",
         "./src/server/modules/details/services/details.service.ts"
       ],
       "./src/server/modules/details/services/details.service.ts": [
@@ -7214,38 +7123,6 @@
       "./node_modules/@nestjs/swagger/index.d.ts": [
         "./node_modules/@nestjs/swagger/dist/index.d.ts"
       ],
-      "./node_modules/@nestjs/testing/index.d.ts": [
-        "./node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "./node_modules/@nestjs/testing/test.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/interfaces/index.d.ts": [
-        "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
-        "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/test.d.ts": [
-        "./node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/testing-module.builder.d.ts": [
-        "./node_modules/@nestjs/common/interfaces/index.d.ts",
-        "./node_modules/@nestjs/core/metadata-scanner.d.ts",
-        "./node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "./node_modules/@nestjs/testing/testing-module.d.ts"
-      ],
-      "./node_modules/@nestjs/testing/testing-module.d.ts": [
-        "./node_modules/@nestjs/common/index.d.ts",
-        "./node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        "./node_modules/@nestjs/core/application-config.d.ts",
-        "./node_modules/@nestjs/core/index.d.ts",
-        "./node_modules/@nestjs/core/injector/container.d.ts",
-        "./node_modules/@nestjs/core/injector/module.d.ts"
-      ],
       "./node_modules/@nestjs/typeorm/dist/common/index.d.ts": [
         "./node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
         "./node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts"
@@ -7569,7 +7446,7 @@
         "./node_modules/@types/superagent/index.d.ts"
       ],
       "./node_modules/@types/uglify-js/index.d.ts": [
-        "./node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts"
+        "./node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/index.d.ts": [
         "./node_modules/@types/node/index.d.ts",
@@ -7588,7 +7465,7 @@
       "./node_modules/@types/webpack-sources/lib/cachedsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/compatsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
@@ -7598,7 +7475,7 @@
         "./node_modules/@types/source-list-map/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/index.d.ts": [
         "./node_modules/@types/webpack-sources/lib/cachedsource.d.ts",
@@ -7611,13 +7488,13 @@
         "./node_modules/@types/webpack-sources/lib/sizeonlysource.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
         "./node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/originalsource.d.ts": [
         "./node_modules/@types/source-list-map/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/prefixsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
@@ -7637,12 +7514,12 @@
       "./node_modules/@types/webpack-sources/lib/source.d.ts": [
         "./node_modules/@types/node/crypto.d.ts",
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack-sources/lib/sourcemapsource.d.ts": [
         "./node_modules/@types/webpack-sources/lib/index.d.ts",
         "./node_modules/@types/webpack-sources/lib/source.d.ts",
-        "./node_modules/source-map/source-map.d.ts"
+        "./node_modules/@types/webpack-sources/node_modules/source-map/source-map.d.ts"
       ],
       "./node_modules/@types/webpack/index.d.ts": [
         "./node_modules/@types/node/crypto.d.ts",
@@ -9307,13 +9184,6 @@
       "./node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts",
       "./node_modules/@nestjs/swagger/dist/utils/index.d.ts",
       "./node_modules/@nestjs/swagger/index.d.ts",
-      "./node_modules/@nestjs/testing/index.d.ts",
-      "./node_modules/@nestjs/testing/interfaces/index.d.ts",
-      "./node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-      "./node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
-      "./node_modules/@nestjs/testing/test.d.ts",
-      "./node_modules/@nestjs/testing/testing-module.builder.d.ts",
-      "./node_modules/@nestjs/testing/testing-module.d.ts",
       "./node_modules/@nestjs/typeorm/dist/common/index.d.ts",
       "./node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
       "./node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts",
@@ -9804,7 +9674,6 @@
       "./src/client/components/detailitem/detailitem.tsx",
       "./src/client/components/detaillist/detaillist.tsx",
       "./src/client/components/home/home.tsx",
-      "./src/client/services/api.service.ts",
       "./src/common/detail.model.ts",
       "./src/server/app.controller.ts",
       "./src/server/app.module.ts",
@@ -9812,10 +9681,8 @@
       "./src/server/database/migrations/1607871696884-details.ts",
       "./src/server/main.ts",
       "./src/server/modules/database/database.module.ts",
-      "./src/server/modules/details/controllers/details.controller.spec.ts",
       "./src/server/modules/details/controllers/details.controller.ts",
       "./src/server/modules/details/details.module.ts",
-      "./src/server/modules/details/services/details.service.spec.ts",
       "./src/server/modules/details/services/details.service.ts",
       "./src/server/views/layout.tsx"
     ]

@@ -23,13 +23,14 @@ const App = () => {
         <nav>
           <ul className="menu">
             <li className="menu__item">
-              <Link to="/">AUTOPORTAL</Link>
+              <Link className="link" to="/">
+                AUTOPORTAL
+              </Link>
             </li>
             <li className="menu__item">
-              <Link to="/details">Каталог деталей</Link>
-            </li>
-            <li className="menu__item">
-              <Link to="/addDetail">Добавить деталь</Link>
+              <Link className="link" to="/details">
+                Каталог деталей
+              </Link>
             </li>
           </ul>
         </nav>
@@ -40,6 +41,9 @@ const App = () => {
         </Route>
         <Route path="/details">
           <div>
+            <Link className="link" to="/addDetail">
+              Добавить деталь
+            </Link>
             <DetailList details={details}></DetailList>
           </div>
         </Route>

@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc -b",
     "build:client": "webpack",
-    "build:client:dev": "webpack --watch",
+    "client:dev": "webpack --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
