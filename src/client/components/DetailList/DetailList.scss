@@ -33,6 +33,7 @@
 
       &::before {
         @include blockAfterBefore(#ff0000);
+        top:45px;
         transform: rotate(45deg) translateX(-50%);
       }
 
