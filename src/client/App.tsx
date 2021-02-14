@@ -8,13 +8,13 @@ import Home from './components/Home/Home';
 
 import './App.scss';
 import { Detail } from 'src/common/detail.model';
+import { ApiService } from './services/api.service';
 
 const App = () => {
+  const apiService = new ApiService();
   const [details, setDetails] = React.useState<Detail[]>([]);
   React.useEffect(() => {
-    fetch('api/details')
-      .then((res) => res.json())
-      .then((json) => setDetails(json));
+    apiService.getDetails().then((json) => setDetails(json));
   }, []);
 
   return (
