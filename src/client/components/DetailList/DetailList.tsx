@@ -3,16 +3,38 @@ import { Detail } from 'src/common/detail.model';
 import { DetailItem } from '../DetailItem/DetailItem';
 import { deleteDetail as apiDelete } from '../../services/api.service';
 import './DetailList.scss';
+import { Modal } from '../Modal/Modal';
 
 const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
-  function deleteDetail(id: string) {
-    if (confirm('Вы уверены, что хотите удалить деталь?')) {
-      apiDelete(id).then(() => alert('Удаление успешно завершено.'));
-    }
+  const [isDeleteDialogOpen, setIsDeleteDialogOpen] = React.useState(false);
+  const [selectedDetail, setSelectedDetail] = React.useState(null);
+
+  function openDeleteConfirm(detail: Detail) {
+    setSelectedDetail(detail);
+    setIsDeleteDialogOpen(true);
+  }
+
+  async function sumbitDialog() {
+    setIsDeleteDialogOpen(false);
+    await apiDelete(selectedDetail.id);
+  }
+
+  function cancelDialog() {
+    setIsDeleteDialogOpen(false);
   }
 
   return (
-    <React.Fragment>
+    <>
+      {isDeleteDialogOpen && (
+        <Modal
+          title="Предупреждение"
+          onSubmit={sumbitDialog}
+          onCancel={cancelDialog}
+          isOpen={isDeleteDialogOpen}
+        >
+          Вы действительно хотите удалить {selectedDetail.name}?
+        </Modal>
+      )}
       <header className="page-header">Список деталей</header>
       <ul className="detail-list">
         {details.map((detail) => (
@@ -22,12 +44,12 @@ const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
             </div>
             <button
               className="button button-flat button-delete"
-              onClick={() => deleteDetail(detail.id)}
+              onClick={() => openDeleteConfirm(detail)}
             ></button>
           </li>
         ))}
       </ul>
-    </React.Fragment>
+    </>
   );
 };
 
