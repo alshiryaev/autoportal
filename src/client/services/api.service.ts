@@ -1,5 +1,4 @@
 import { Detail } from 'src/common/detail.model';
-
 export class ApiService {
   getDetails(): Promise<Detail[]> {
     return fetch('api/details').then((res) => res.json());

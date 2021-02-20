@@ -4,9 +4,12 @@ import { DetailItem } from '../DetailItem/DetailItem';
 import './DetailList.scss';
 import { Modal } from '../Modal/Modal';
 import { ApiService } from 'src/client/services/api.service';
+import { useState } from 'react';
 
-const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
-  const apiService = new ApiService();
+const DetailList: React.FC<{
+    details: Detail[]; 
+    deleteDetail: (id: string) => void;
+  }> = ({ details, deleteDetail }) => {
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = React.useState(false);
   const [selectedDetail, setSelectedDetail] = React.useState(null);
 
@@ -15,9 +18,9 @@ const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
     setIsDeleteDialogOpen(true);
   }
 
-  async function sumbitDialog() {
+  function sumbitDialog() {
     setIsDeleteDialogOpen(false);
-    await apiService.deleteDetail(selectedDetail.id);
+    deleteDetail(selectedDetail.id); 
   }
 
   function cancelDialog() {

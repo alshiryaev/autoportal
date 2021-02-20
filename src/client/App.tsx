@@ -17,6 +17,12 @@ const App = () => {
     apiService.getDetails().then((json) => setDetails(json));
   }, []);
 
+  async function deleteDetail(id: string): Promise<void> {
+    const newDetails = details.filter(d => d.id !== id);
+    setDetails(newDetails);
+    await apiService.deleteDetail(id);
+  }
+
   return (
     <Router>
       <header className="header">
@@ -44,7 +50,7 @@ const App = () => {
             <Link className="link" to="/addDetail">
               Добавить деталь
             </Link>
-            <DetailList details={details}></DetailList>
+            <DetailList deleteDetail={deleteDetail} details={details}></DetailList>
           </div>
         </Route>
         <Route path="/addDetail">
