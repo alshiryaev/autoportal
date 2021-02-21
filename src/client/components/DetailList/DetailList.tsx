@@ -3,10 +3,9 @@ import { Detail } from 'src/common/detail.model';
 import { DetailItem } from '../DetailItem/DetailItem';
 import './DetailList.scss';
 import { Modal } from '../Modal/Modal';
-import { ApiService } from 'src/client/services/api.service';
+import { DetailListModel } from './detail-list.model';
 
-const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
-  const apiService = new ApiService();
+const DetailList: React.FC<DetailListModel> = ({ details, onDelete }) => {
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = React.useState(false);
   const [selectedDetail, setSelectedDetail] = React.useState(null);
 
@@ -15,9 +14,9 @@ const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
     setIsDeleteDialogOpen(true);
   }
 
-  async function sumbitDialog() {
+  function sumbitDialog() {
     setIsDeleteDialogOpen(false);
-    await apiService.deleteDetail(selectedDetail.id);
+    onDelete(selectedDetail.id);
   }
 
   function cancelDialog() {
@@ -28,12 +27,12 @@ const DetailList: React.FC<{ details: Detail[] }> = ({ details }) => {
     <>
       {isDeleteDialogOpen && (
         <Modal
-          title="Предупреждение"
+          title="Удаление"
           onSubmit={sumbitDialog}
           onCancel={cancelDialog}
           isOpen={isDeleteDialogOpen}
         >
-          Вы действительно хотите удалить {selectedDetail.name}?
+          Удалить {selectedDetail.name}?
         </Modal>
       )}
       <header className="page-header">Список деталей</header>
