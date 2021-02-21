@@ -18,7 +18,7 @@ const App = () => {
   }, []);
 
   async function deleteDetail(id: string): Promise<void> {
-    const newDetails = details.filter(d => d.id !== id);
+    const newDetails = details.filter((d) => d.id !== id);
     setDetails(newDetails);
     await apiService.deleteDetail(id);
   }
@@ -50,7 +50,7 @@ const App = () => {
             <Link className="link" to="/addDetail">
               Добавить деталь
             </Link>
-            <DetailList deleteDetail={deleteDetail} details={details}></DetailList>
+            <DetailList onDelete={deleteDetail} details={details}></DetailList>
           </div>
         </Route>
         <Route path="/addDetail">

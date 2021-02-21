@@ -3,13 +3,9 @@ import { Detail } from 'src/common/detail.model';
 import { DetailItem } from '../DetailItem/DetailItem';
 import './DetailList.scss';
 import { Modal } from '../Modal/Modal';
-import { ApiService } from 'src/client/services/api.service';
-import { useState } from 'react';
+import { DetailListModel } from './detail-list.model';
 
-const DetailList: React.FC<{
-    details: Detail[]; 
-    deleteDetail: (id: string) => void;
-  }> = ({ details, deleteDetail }) => {
+const DetailList: React.FC<DetailListModel> = ({ details, onDelete }) => {
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = React.useState(false);
   const [selectedDetail, setSelectedDetail] = React.useState(null);
 
@@ -20,7 +16,7 @@ const DetailList: React.FC<{
 
   function sumbitDialog() {
     setIsDeleteDialogOpen(false);
-    deleteDetail(selectedDetail.id); 
+    onDelete(selectedDetail.id);
   }
 
   function cancelDialog() {
@@ -31,12 +27,12 @@ const DetailList: React.FC<{
     <>
       {isDeleteDialogOpen && (
         <Modal
-          title="Предупреждение"
+          title="Удаление"
           onSubmit={sumbitDialog}
           onCancel={cancelDialog}
           isOpen={isDeleteDialogOpen}
         >
-          Вы действительно хотите удалить {selectedDetail.name}?
+          Удалить {selectedDetail.name}?
         </Modal>
       )}
       <header className="page-header">Список деталей</header>
