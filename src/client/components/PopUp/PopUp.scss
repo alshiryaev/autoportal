@@ -1,0 +1,14 @@
+.notification {
+    &__message {
+        font-size: 14px;
+        box-sizing: border-box;
+        position: fixed;
+    }
+}
+
+.top-right {
+    top: 12px;
+    right: 12px;
+    transition: transform .6s ease-in-out;
+    animation: toast-in-right .7s;
+}
