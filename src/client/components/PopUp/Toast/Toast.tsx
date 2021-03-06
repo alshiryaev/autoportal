@@ -1,4 +1,5 @@
 import * as React from 'react';
+import "./Toast.scss";
 
 function Toast(props) {
   const { toastList, position } = props;

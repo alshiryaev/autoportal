@@ -95,3 +95,5 @@ export const PopUp = () => {
     </div>
   );
 };
+
+export default PopUp

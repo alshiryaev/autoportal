@@ -4,7 +4,7 @@ import { DetailItem } from '../DetailItem/DetailItem';
 import './DetailList.scss';
 import { Modal } from '../Modal/Modal';
 import { DetailListModel } from './detail-list.model';
-import { PopUp } from '../PopUp/PopUp';
+import PopUp from '../PopUp/PopUp';
 
 const DetailList: React.FC<DetailListModel> = ({ details, onDelete }) => {
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = React.useState(false);
@@ -37,7 +37,6 @@ const DetailList: React.FC<DetailListModel> = ({ details, onDelete }) => {
         </Modal>
       )}
       <header className="page-header">Список деталей</header>
-      <PopUp />
       <ul className="detail-list">
         {details.map((detail) => (
           <li className="detail-container">
