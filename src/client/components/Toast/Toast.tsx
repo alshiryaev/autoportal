@@ -1,9 +1,17 @@
 import * as React from 'react';
+import { NotificationType } from 'src/client/models/notification.model';
 import "./Toast.scss";
 
 function Toast(props) {
   const { toastList, position } = props;
   const [list, setList] = React.useState(toastList);
+
+  const colorConfig = {
+    'Success': '#5cb85c',
+    'Danger': '#d9534f',
+    'Info': '#5bc0de',
+    'Warning': '#f0ad4e'
+  };
 
   React.useEffect(() => {
     setList(toastList);
@@ -21,7 +29,7 @@ function Toast(props) {
         <div
           key={i}
           className={`notification toast ${position}`}
-          style={{ backgroundColor: toast.backgroundColor }}
+          style={{ backgroundColor: colorConfig[toast.type] }}
         >
           <button onClick={() => deleteToast(toast.id)}>X</button>
           <div>
