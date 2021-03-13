@@ -1,16 +1,16 @@
 import * as React from 'react';
 import { NotificationType } from 'src/client/models/notification.model';
-import "./Toast.scss";
+import './Toast.scss';
 
 function Toast(props) {
   const { toastList, position } = props;
   const [list, setList] = React.useState(toastList);
 
   const colorConfig = {
-    'Success': '#5cb85c',
-    'Danger': '#d9534f',
-    'Info': '#5bc0de',
-    'Warning': '#f0ad4e'
+    Success: '#5cb85c',
+    Danger: '#d9534f',
+    Info: '#5bc0de',
+    Warning: '#f0ad4e',
   };
 
   React.useEffect(() => {
@@ -34,7 +34,7 @@ function Toast(props) {
           <button onClick={() => deleteToast(toast.id)}>X</button>
           <div>
             <p className="notification__title">{toast.title}</p>
-            <p className="notification__message">{toast.message}</p>
+            <p className="notification__message">{toast.description}</p>
           </div>
         </div>
       ))}

@@ -33,7 +33,6 @@ const App = () => {
       type: NotificationType.Success,
       title: 'Удаление',
       description: `Деталь успешно удалена`,
-      backgroundColor: '#f9ff88',
     });
     setPopUpList(notificationList);
   }
