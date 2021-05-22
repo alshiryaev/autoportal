@@ -5,9 +5,9 @@ export enum NotificationType {
   Info = 'Info',
 }
 
-export class PopUpNotification {
+export class PopupMessage {
   title: string;
   description: string;
   type: NotificationType;
-  id: number;
+  id: string;
 }

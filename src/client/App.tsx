@@ -11,11 +11,11 @@ import './App.scss';
 import { Detail } from 'src/common/detail.model';
 import { ApiService } from './services/api.service';
 
-import { PopUpNotification } from './models/notification.model';
+import { PopupMessage } from './models/notification.model';
 import { NotificationType } from './models/notification.model';
 
 const App = () => {
-  const [list, setPopUpList] = React.useState<PopUpNotification[]>([]);
+  const [popupMessages, setPopupMessages] = React.useState<PopupMessage[]>([]);
   const apiService = new ApiService();
   const [details, setDetails] = React.useState<Detail[]>([]);
 
@@ -28,18 +28,18 @@ const App = () => {
     setDetails(newDetails);
     await apiService.deleteDetail(id);
     const nid = Math.floor(Math.random() * 101 + 1);
-    const notificationList = list.concat({
-      id: nid,
+    const notificationList = popupMessages.concat({
+      id: String(id),
       type: NotificationType.Success,
       title: 'Удаление',
       description: `Деталь успешно удалена`,
     });
-    setPopUpList(notificationList);
+    setPopupMessages(notificationList);
   }
 
   return (
     <React.Fragment>
-      <Toast toastList={list} position="bottom-right" />
+      <Toast toastList={popupMessages} position="bottom-right" />
       <Router>
         <header className="header">
           <nav>
