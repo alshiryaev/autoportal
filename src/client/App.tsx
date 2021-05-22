@@ -27,7 +27,6 @@ const App = () => {
     const newDetails = details.filter((d) => d.id !== id);
     setDetails(newDetails);
     await apiService.deleteDetail(id);
-    const nid = Math.floor(Math.random() * 101 + 1);
     const notificationList = popupMessages.concat({
       id: String(id),
       type: NotificationType.Success,
