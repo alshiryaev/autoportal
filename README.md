@@ -1,3 +1,5 @@
+![build passing](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)
+
 **Общие сведения**
 
 Команда для построения и запуска контейнера:
