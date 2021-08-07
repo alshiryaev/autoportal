@@ -1,8 +1,5 @@
 import { v4 } from 'uuid';
-import {
-  NotificationType,
-  PopupMessage,
-} from '../models/notification.model';
+import { NotificationType, PopupMessage } from '../models/notification.model';
 
 export class NotificationService {
   private static _instance: NotificationService;
