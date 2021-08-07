@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/username/projectname.svg?branch=master)](https://travis-ci.com/username/projectname)
+[![Build Status](https://travis-ci.com/alshiryaev/autoportal.svg?branch=alshiryaev-patch-1)](https://travis-ci.com/alshiryaev/autoportal)
 
 **Общие сведения**
 
