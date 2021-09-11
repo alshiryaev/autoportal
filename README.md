@@ -1,21 +1,32 @@
-**Общие сведения**
+<h1>AUTOPORTAL</h1>
 
-Команда для построения и запуска контейнера:
-`docker build -t autoportal . && docker run -p 80:80 -p 443:443 -v "pwd":/www/ --name nginx-nest-react autoportal
-`
-**Настройка БД**
+Проект для учета товара магазина автозапчастей.
 
-Для работы необходимо создать БД, например autoportal 
-Все данные необходимыед для работы с базой данных должны
-указываться в файле ormconfig.env
+Фронт - `React`
+
+Бэк - `NestJS`
+
+БД - `Postgres`
+
+ORM - `TypeORM`
+
+**Первый запуск**
+
+БД и средство администрирования БД (pgAdmin) перенесены в Docker
+Для запуска БД выполняем следующую команду
+<pre>docker-compose up --build</pre>
+
+Все данные необходимые для работы с базой данных должны
+указываться в файле `ormconfig.env`, который должен находится в
+корне проекта.
 
 Пример конфига
 
-`
+<pre>
 TYPEORM_CONNECTION = postgres
 TYPEORM_HOST = localhost
 TYPEORM_USERNAME = postgres
-TYPEORM_PASSWORD = 12345
+TYPEORM_PASSWORD = postgres
 TYPEORM_DATABASE = autoportal
 TYPEORM_PORT = 5432
 TYPEORM_SYNCHRONIZE = false
@@ -24,13 +35,25 @@ TYPEORM_MIGRATIONS=dist/server/database/migrations/*.js
 TYPEORM_MIGRATIONS_DIR=./src/server/database/migrations
 TYPEORM_ENTITIES=dist/server/database/entities/*.entity.js
 TYPEORM_ENTITIES_DIR=./src/server/database/entities
-`
+</pre>
 
 Ключи TYPEORM_MIGRATIONS, TYPEORM_MIGRATIONS_DIR, TYPEORM_ENTITIES, TYPEORM_ENTITIES_DIR
-должны быть такие же как укзааны в примере
+должны быть такие же как укзаны в примере
 
 Для создания структуры БД необходимо запустить миграции
-npm run typeorm migration:run
+`npm run typeorm migration:run`
 
-Откад БД на одну миграцию 
-npm run typeorm migration:revert
+Откат БД на одну миграцию
+`npm run typeorm migration:revert`
+
+Запускаем сервер командой `npm run start:dev` 
+и переходим на `http://localhost:3000/swagger`
+
+
+
+Команда для построения и запуска контейнера nginx:
+<pre>
+docker build -t autoportal . && docker run -p 80:80 -p 443:443 -v "pwd":/www/ --name nginx-nest-react autoportal
+</pre>
+
+
