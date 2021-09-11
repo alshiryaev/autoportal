@@ -1,6 +1,7 @@
 version: "3"
 services:
   postgres:
+    container_name: autoportal-db
     image: postgres
     hostname: postgres
     ports:
@@ -16,6 +17,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4
+    container_name: autoportal-pgadmin
     depends_on:
       - postgres
     ports:
