@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/client/App.tsx',
+  entry: './App.tsx',
   devtool: 'inline-source-map',
   output: {
     path: path.resolve(__dirname, 'public'),

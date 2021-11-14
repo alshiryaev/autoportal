@@ -8,12 +8,11 @@ import Home from './components/Home/Home';
 import Toast from './components/Toast/Toast';
 
 import './App.scss';
-import { Detail } from 'src/common/detail.model';
 import { ApiService } from './services/api.service';
 
 import { PopupMessage } from './models/notification.model';
-import { NotificationType } from './models/notification.model';
-
+import { NotificationType } from './models/notification.model'
+import { Detail } from '../common/detail.model';
 const App = () => {
   const [popupMessages, setPopupMessages] = React.useState<PopupMessage[]>([]);
   const apiService = new ApiService();

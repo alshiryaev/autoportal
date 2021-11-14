@@ -1,5 +1,6 @@
 FROM node:13.12.0-alpine
 WORKDIR /usr/src/app
-COPY ./package*.json ./
+COPY package*.json ./
 RUN npm install
+run npm run build
 COPY . .

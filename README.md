@@ -10,16 +10,18 @@
 
 ORM - `TypeORM`
 
+
 **Первый запуск**
 
 БД и средство администрирования БД (pgAdmin) перенесены в Docker
 Для запуска БД выполняем следующую команду
 <pre>docker-compose up --build</pre>
 
-Утилита pgadmin доступна по адресу `http://localhost:5555` после запуска Docker
+Утилита pgadmin доступна по адресу `http://localhost:5555` после запуска Docker.
+Создаем сервер с БД с хостом (TYPEORM_HOST) как в файле конфигурации.
 
 Все данные необходимые для работы с базой данных должны
-указываться в файле `ormconfig.env`, который должен находится в
+указываться в файле конфигурации `ormconfig.env`, который должен находится в
 корне проекта.
 
 Пример конфига
@@ -39,12 +41,10 @@ TYPEORM_ENTITIES=dist/server/database/entities/*.entity.js
 TYPEORM_ENTITIES_DIR=./src/server/database/entities
 </pre>
 
-Параметры `PASSWORD, USER, DATABASE` должны совпадать с соотыветствующими параметрами из
+Параметры `PASSWORD, USER, DATABASE` должны совпадать с соответствующими параметрами из
 docker-compose.yml файла.
 Ключи `TYPEORM_MIGRATIONS, TYPEORM_MIGRATIONS_DIR, TYPEORM_ENTITIES, TYPEORM_ENTITIES_DIR`
 должны быть такие же как укзаны в примере
-
-Запуск докера с БД и pgadmin `docker-compose up --build`
 
 Для создания структуры БД необходимо запустить миграции
 `npm run typeorm migration:run`
@@ -54,8 +54,6 @@ docker-compose.yml файла.
 
 Запускаем сервер командой `npm run start:dev` 
 и переходим на `http://localhost:3000/swagger`
-
-
 
 Команда для построения и запуска контейнера nginx:
 <pre>

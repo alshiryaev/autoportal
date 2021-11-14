@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ModalDialog } from 'src/client/models/modal-dialog.model';
+import { ModalDialog } from '../../models/modal-dialog.model';
 import { Portal } from '../Portal/Portal';
 import './Modal.scss';
 
