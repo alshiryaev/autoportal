@@ -45,6 +45,18 @@ services:
     networks:
       - autoportal-network
 
+  nginx:
+    image: nginx:stable-alpine
+    container_name: autoportal-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+    depends_on:
+      - api
+    networks:
+      - autoportal-network
+
 volumes:
   postgres-data:
 
