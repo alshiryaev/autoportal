@@ -4,6 +4,13 @@ module.exports = {
   mode: 'production',
   entry: './App.tsx',
   devtool: 'inline-source-map',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
+    compress: true,
+    port: 9000,
+  },
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',

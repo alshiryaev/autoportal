@@ -45,6 +45,16 @@ services:
     networks:
       - autoportal-network
 
+  frontend:
+    build: ./client
+    container_name: autoportal-frontend
+    command: npm run start
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    networks:
+      - autoportal-network
+
   nginx:
     image: nginx:stable-alpine
     container_name: autoportal-nginx

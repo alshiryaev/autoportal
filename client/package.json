@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack",
-    "start": "webpack --watch",
+    "start": "webpack-dev-server",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
@@ -53,7 +53,8 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.0.5",
     "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^4.5.0"
   },
   "jest": {
     "moduleFileExtensions": [

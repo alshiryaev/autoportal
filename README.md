@@ -28,17 +28,19 @@ ORM - `TypeORM`
 
 <pre>
 TYPEORM_CONNECTION = postgres
-TYPEORM_HOST = localhost
+# Для локального запуска api - localhost
+# Для работы через nginx - postgres
+TYPEORM_HOST = postgres 
 TYPEORM_USERNAME = postgres
 TYPEORM_PASSWORD = postgres
 TYPEORM_DATABASE = autoportal
 TYPEORM_PORT = 5432
 TYPEORM_SYNCHRONIZE = false
 TYPEORM_LOGGING = false
-TYPEORM_MIGRATIONS=dist/server/database/migrations/*.js
-TYPEORM_MIGRATIONS_DIR=./src/server/database/migrations
-TYPEORM_ENTITIES=dist/server/database/entities/*.entity.js
-TYPEORM_ENTITIES_DIR=./src/server/database/entities
+TYPEORM_MIGRATIONS=./dist/database/migrations/*.js
+TYPEORM_MIGRATIONS_DIR=./dist/database/migrations
+TYPEORM_ENTITIES=./dist/database/entities/*.entity.js
+TYPEORM_ENTITIES_DIR=./dist/database/entities
 </pre>
 
 Параметры `PASSWORD, USER, DATABASE` должны совпадать с соответствующими параметрами из

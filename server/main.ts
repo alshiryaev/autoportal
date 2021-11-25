@@ -18,7 +18,7 @@ async function bootstrap() {
     .addTag('autoportal')
     .build();
   const document = SwaggerModule.createDocument(app, options);
-  SwaggerModule.setup('swagger', app, document);
+  SwaggerModule.setup('api/swagger', app, document);
   await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
