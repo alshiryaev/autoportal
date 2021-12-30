@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './App.tsx',
   devtool: 'inline-source-map',
   devServer: {
@@ -9,7 +9,7 @@ module.exports = {
       directory: path.join(__dirname, 'public'),
     },
     compress: true,
-    port: 9000,
+    port: 3001,
   },
   output: {
     path: path.resolve(__dirname, 'public'),

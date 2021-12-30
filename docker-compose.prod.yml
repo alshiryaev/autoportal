@@ -62,6 +62,7 @@ services:
       - "80:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - ./client/public:/usr/share/nginx/html
     depends_on:
       - api
     networks:

@@ -5,7 +5,7 @@
 /server/dist
 /client/node_modules
 /client/dist
-/public
+/client/public
 
 # Logs
 logs
