@@ -1,4 +1,4 @@
-FROM node:13.12.0-alpine
+FROM node:lts-alpine3.14
 WORKDIR /usr/app/src
 ENV PATH /app/node_modules/.bin:$PATH
 
