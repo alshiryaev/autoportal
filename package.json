@@ -7,9 +7,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "clean": "npm run clean:client && npm run clean:server",
-    "clean:client": "rimraf ./client/node_modules",
-    "clean:server": "rimraf ./server/node_modules",
-    "install:all": "cd ./client && npm install && cd ./server && npm install",
+    "clean:client": "rimraf src/client/node_modules",
+    "clean:server": "rimraf src/server/node_modules",
+    "install:all": "cd ./client && npm install && cd src/server && npm install",
     "start:dev": "docker-compose -f docker-compose.dev.yml up --build   "
   },
   "devDependencies": {

@@ -32,7 +32,7 @@ services:
     - autoportal-network
 
   api:
-    build: ./server
+    build: ./src/server
     container_name: autoportal-api
     command: npm run start
     ports:
@@ -47,11 +47,11 @@ services:
 
   frontend:
     container_name: autoportal-frontend
-    build: ./client
+    build: ./src/client
     command: npm run start
     volumes:
-      - './client:/usr/app/src'
-      - './common:/usr/app/common'
+      - './src/client:/usr/app/src'
+      - './src/common:/usr/app/common'
     ports:
       - "9000:9000"
     depends_on:

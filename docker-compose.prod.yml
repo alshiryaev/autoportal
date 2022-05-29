@@ -32,7 +32,7 @@ services:
     - autoportal-network
 
   api:
-    build: ./server
+    build: ./src/server
     container_name: autoportal-api
     command: npm run start
     ports:
@@ -46,7 +46,7 @@ services:
       - autoportal-network
 
   frontend:
-    build: ./client
+    build: ./src/client
     container_name: autoportal-frontend
     command: npm run start
     stdin_open: true

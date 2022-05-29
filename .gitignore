@@ -1,11 +1,11 @@
 # compiled output
 /dist
 /node_modules
-/server/node_modules
-/server/dist
-/client/node_modules
-/client/dist
-/client/public
+/src/server/node_modules
+/src/server/dist
+/src/client/node_modules
+/src/client/dist
+/src/client/public
 /public
 
 # Logs

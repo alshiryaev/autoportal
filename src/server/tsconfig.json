@@ -14,5 +14,7 @@
     "jsx": "react"
   },
   "exclude": [
-    "../server/node_modules", "dist"]
+    ".//node_modules",
+    "dist"
+  ]
 }
