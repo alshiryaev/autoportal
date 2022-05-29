@@ -54,6 +54,8 @@ services:
       - './common:/usr/app/common'
     ports:
       - "9000:9000"
+    depends_on:
+      - api
     environment:
       - CHOKIDAR_USEPOLLING=true
     stdin_open: true
