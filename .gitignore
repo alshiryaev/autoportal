@@ -6,6 +6,7 @@
 /client/node_modules
 /client/dist
 /client/public
+/public
 
 # Logs
 logs
@@ -41,4 +42,3 @@ lerna-debug.log*
 
 client/tsconfig.build.tsbuildinfo
 client/tsconfig.tsbuildinfo
-server/ormconfig.env
