@@ -1,35 +1,35 @@
 <h1>AUTOPORTAL</h1>
 
-Проект для учета товара магазина автозапчастей.
+A study project for a little market
 
-Фронт - `React`
+Frontend - `React`
 
-Бэк - `NestJS`
+Backend - `NestJS`
 
-БД - `Postgres`
+Database - `Postgres`
 
 ORM - `TypeORM`
 
+<h4> The first launch </h4>
 
-**Первый запуск**
+The database and admin tools (pgAdmin) moved to Docker
 
-БД и средство администрирования БД (pgAdmin) перенесены в Docker
-Для запуска БД выполняем следующую команду
-<pre>docker-compose up --build</pre>
+To start to use the following command:
+<pre>docker-compose -f docker-compose.dev.yml up --build</pre>
 
-Утилита pgadmin доступна по адресу `http://localhost:5555` после запуска Docker.
-Создаем сервер с БД с хостом (TYPEORM_HOST) как в файле конфигурации.
+The database tool pgadmin - `http://localhost:5555`
+it is necessary to create a database server.
+For details see <code>ormconfig.env</code> in server folder.
 
-Все данные необходимые для работы с базой данных должны
-указываться в файле конфигурации `ormconfig.env`, который должен находится в
-корне проекта.
+All the data needeed for the database connection is in ormconfig.env file
+This file is in server folder.
 
-Пример конфига
+Config example:
 
 <pre>
 TYPEORM_CONNECTION = postgres
-# Для локального запуска api - localhost
-# Для работы через nginx - postgres
+# For a local - localhost
+# If you use nginx - postgres
 TYPEORM_HOST = postgres 
 TYPEORM_USERNAME = postgres
 TYPEORM_PASSWORD = postgres
@@ -43,15 +43,14 @@ TYPEORM_ENTITIES=./dist/database/entities/*.entity.js
 TYPEORM_ENTITIES_DIR=./dist/database/entities
 </pre>
 
-Параметры `PASSWORD, USER, DATABASE` должны совпадать с соответствующими параметрами из
-docker-compose.yml файла.
-Ключи `TYPEORM_MIGRATIONS, TYPEORM_MIGRATIONS_DIR, TYPEORM_ENTITIES, TYPEORM_ENTITIES_DIR`
-должны быть такие же как укзаны в примере
+Variables `PASSWORD, USER, DATABASE` must match with the parameters in <code>docker-compose.yml</code>
+Variables `TYPEORM_MIGRATIONS, TYPEORM_MIGRATIONS_DIR, TYPEORM_ENTITIES, TYPEORM_ENTITIES_DIR`
+should point to specific parameters of the server application
 
-Для создания структуры БД необходимо запустить миграции
+To creation of the database tables it's necessary to run the following command:
 `npm run typeorm migration:run`
 
-Откат БД на одну миграцию
+To revert:
 `npm run typeorm migration:revert`
 
 Запускаем сервер командой `npm run start:dev` 

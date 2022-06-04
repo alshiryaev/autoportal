@@ -1,11 +1,13 @@
+@import "../abstract/variables";
+
 .button {
   border: 1px solid #999;
   outline: none;
   cursor: pointer;
 
   &-warn {
-    background-color: tomato;
-    color: #fff;
+    background-color: $color-primary;
+    color: $color-white;
   }
 
   &-flat {
@@ -13,3 +15,4 @@
     outline: none;
   }
 }
+
