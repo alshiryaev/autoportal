@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Detail } from 'src/common/detail.model';
+import { Detail } from '../../../common/detail.model';
 import './DetailItem.scss';
 
 export const DetailItem: React.FC<{ detail: Detail }> = ({ detail }) => {

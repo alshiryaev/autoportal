@@ -1,9 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production',
-  entry: './src/client/App.tsx',
+  mode: 'development',
+  entry: './App.tsx',
   devtool: 'inline-source-map',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
+    compress: true,
+    port: 3001,
+  },
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',

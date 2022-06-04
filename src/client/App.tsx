@@ -8,11 +8,11 @@ import Home from './components/Home/Home';
 import Toast from './components/Toast/Toast';
 
 import './App.scss';
-import { Detail } from 'src/common/detail.model';
 import { ApiService } from './services/api.service';
 
 import { PopupMessage } from './models/notification.model';
 import { NotificationType } from './models/notification.model';
+import { Detail } from '../common/detail.model';
 
 const App = () => {
   const [popupMessages, setPopupMessages] = React.useState<PopupMessage[]>([]);
@@ -38,18 +38,18 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <Toast toastList={popupMessages} position="bottom-right" />
+      <Toast toastList={popupMessages} position='bottom-right' />
       <Router>
-        <header className="header">
+        <header className='header'>
           <nav>
-            <ul className="menu">
-              <li className="menu__item">
-                <Link className="link" to="/">
+            <ul className='menu'>
+              <li className='menu__item'>
+                <Link className='link' to='/'>
                   AUTOPORTAL
                 </Link>
               </li>
-              <li className="menu__item">
-                <Link className="link" to="/details">
+              <li className='menu__item'>
+                <Link className='link' to='/details'>
                   Каталог деталей
                 </Link>
               </li>
@@ -57,12 +57,12 @@ const App = () => {
           </nav>
         </header>
         <Switch>
-          <Route exact path="/">
+          <Route exact path='/'>
             <Home></Home>
           </Route>
-          <Route path="/details">
+          <Route path='/details'>
             <div>
-              <Link className="link" to="/addDetail">
+              <Link className='link' to='/addDetail'>
                 Добавить деталь
               </Link>
               <DetailList
@@ -71,7 +71,7 @@ const App = () => {
               ></DetailList>
             </div>
           </Route>
-          <Route path="/addDetail">
+          <Route path='/addDetail'>
             <div>
               <AddDetail />
             </div>

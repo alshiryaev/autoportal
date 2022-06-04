@@ -1,3 +1,5 @@
+@import "styles/abstract/variables";
+
 
     .detail-card {
         display: flex;
@@ -26,7 +28,7 @@
         }
 
         &__title {
-            font-size: 1.7rem;
+            font-size: $font-size;
         }
 
         &__price {

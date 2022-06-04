@@ -1,4 +1,4 @@
-import { Detail } from 'src/common/detail.model';
+import { Detail } from "../../../common/detail.model";
 
 export interface DetailListModel {
   details: Detail[];

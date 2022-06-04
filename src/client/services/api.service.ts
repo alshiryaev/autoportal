@@ -1,4 +1,4 @@
-import { Detail } from 'src/common/detail.model';
+import { Detail } from '../../common/detail.model';
 export class ApiService {
   getDetails(): Promise<Detail[]> {
     return fetch('api/details').then((res) => res.json());

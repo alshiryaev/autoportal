@@ -10,34 +10,42 @@
 
 ORM - `TypeORM`
 
+
 **Первый запуск**
 
 БД и средство администрирования БД (pgAdmin) перенесены в Docker
 Для запуска БД выполняем следующую команду
 <pre>docker-compose up --build</pre>
 
+Утилита pgadmin доступна по адресу `http://localhost:5555` после запуска Docker.
+Создаем сервер с БД с хостом (TYPEORM_HOST) как в файле конфигурации.
+
 Все данные необходимые для работы с базой данных должны
-указываться в файле `ormconfig.env`, который должен находится в
+указываться в файле конфигурации `ormconfig.env`, который должен находится в
 корне проекта.
 
 Пример конфига
 
 <pre>
 TYPEORM_CONNECTION = postgres
-TYPEORM_HOST = localhost
+# Для локального запуска api - localhost
+# Для работы через nginx - postgres
+TYPEORM_HOST = postgres 
 TYPEORM_USERNAME = postgres
 TYPEORM_PASSWORD = postgres
 TYPEORM_DATABASE = autoportal
 TYPEORM_PORT = 5432
 TYPEORM_SYNCHRONIZE = false
 TYPEORM_LOGGING = false
-TYPEORM_MIGRATIONS=dist/server/database/migrations/*.js
-TYPEORM_MIGRATIONS_DIR=./src/server/database/migrations
-TYPEORM_ENTITIES=dist/server/database/entities/*.entity.js
-TYPEORM_ENTITIES_DIR=./src/server/database/entities
+TYPEORM_MIGRATIONS=./dist/database/migrations/*.js
+TYPEORM_MIGRATIONS_DIR=./dist/database/migrations
+TYPEORM_ENTITIES=./dist/database/entities/*.entity.js
+TYPEORM_ENTITIES_DIR=./dist/database/entities
 </pre>
 
-Ключи TYPEORM_MIGRATIONS, TYPEORM_MIGRATIONS_DIR, TYPEORM_ENTITIES, TYPEORM_ENTITIES_DIR
+Параметры `PASSWORD, USER, DATABASE` должны совпадать с соответствующими параметрами из
+docker-compose.yml файла.
+Ключи `TYPEORM_MIGRATIONS, TYPEORM_MIGRATIONS_DIR, TYPEORM_ENTITIES, TYPEORM_ENTITIES_DIR`
 должны быть такие же как укзаны в примере
 
 Для создания структуры БД необходимо запустить миграции
@@ -48,8 +56,6 @@ TYPEORM_ENTITIES_DIR=./src/server/database/entities
 
 Запускаем сервер командой `npm run start:dev` 
 и переходим на `http://localhost:3000/swagger`
-
-
 
 Команда для построения и запуска контейнера nginx:
 <pre>

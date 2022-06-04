@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { NotificationType } from 'src/client/models/notification.model';
+import * as React from 'react';;
 import './Toast.scss';
 
 function Toast(props) {

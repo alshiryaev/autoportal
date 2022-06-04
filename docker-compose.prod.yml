@@ -1,0 +1,76 @@
+version: "3"
+services:
+  postgres:
+    container_name: autoportal-db
+    image: postgres
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: autoportal
+
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - autoportal-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: autoportal-pgadmin
+    depends_on:
+      - postgres
+    ports:
+      - "5555:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
+      PGADMIN_DEFAULT_PASSWORD: admin
+    restart: unless-stopped
+    networks:
+    - autoportal-network
+
+  api:
+    build: ./src/server
+    container_name: autoportal-api
+    command: npm run start
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      DB_API: http://postgres:5432
+    depends_on:
+      - postgres
+    networks:
+      - autoportal-network
+
+  frontend:
+    build: ./src/client
+    container_name: autoportal-frontend
+    command: npm run start
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    networks:
+      - autoportal-network
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: autoportal-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - ./client/public:/usr/share/nginx/html
+    depends_on:
+      - api
+    networks:
+      - autoportal-network
+
+volumes:
+  postgres-data:
+
+networks:
+  autoportal-network:
+    driver: bridge

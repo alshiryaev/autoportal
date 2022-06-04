@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Detail } from 'src/common/detail.model';
 import { DetailItem } from '../DetailItem/DetailItem';
 import './DetailList.scss';
 import { Modal } from '../Modal/Modal';
 import { DetailListModel } from './detail-list.model';
+import { Detail } from "../../../common/detail.model";
 
 const DetailList: React.FC<DetailListModel> = ({ details, onDelete }) => {
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = React.useState(false);

@@ -1,6 +1,11 @@
 # compiled output
 /dist
 /node_modules
+/src/server/node_modules
+/src/server/dist
+/src/client/node_modules
+/src/client/dist
+/src/client/public
 /public
 
 # Logs
@@ -37,4 +42,3 @@ lerna-debug.log*
 
 tsconfig.build.tsbuildinfo
 tsconfig.tsbuildinfo
-ormconfig.env
