@@ -52,13 +52,3 @@ To creation of the database tables it's necessary to run the following command:
 
 To revert:
 `npm run typeorm migration:revert`
-
-Запускаем сервер командой `npm run start:dev` 
-и переходим на `http://localhost:3000/swagger`
-
-Команда для построения и запуска контейнера nginx:
-<pre>
-docker build -t autoportal . && docker run -p 80:80 -p 443:443 -v "pwd":/www/ --name nginx-nest-react autoportal
-</pre>
-
-
