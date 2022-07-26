@@ -53,7 +53,7 @@ services:
       - './src/client:/usr/app/src'
       - './src/common:/usr/app/common'
     ports:
-      - "9000:9000"
+      - "3001:3001"
     depends_on:
       - api
     environment:

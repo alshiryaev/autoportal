@@ -11,3 +11,4 @@ export class PopupMessage {
   type: NotificationType;
   id: string;
 }
+
