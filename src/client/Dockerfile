@@ -6,3 +6,4 @@ RUN npm install
 
 # add app
 COPY . ./
+RUN ls -lat

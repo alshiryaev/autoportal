@@ -32,9 +32,15 @@ services:
     - autoportal-network
 
   api:
-    build: ./src/server
+    build:
+      context: ./src/client
+      dockerfile: Dockerfile
     container_name: autoportal-api
     command: npm run start
+    volumes:
+      - ./src/server:/usr/app/src
+      - ./src/common:/usr/app/common
+      - ./src/server/node_modules:/usr/app/src/node_modules
     ports:
       - "3000:3000"
     environment:
@@ -47,11 +53,14 @@ services:
 
   frontend:
     container_name: autoportal-frontend
-    build: ./src/client
+    build:
+      dockerfile: Dockerfile
+      context: ./src/client
     command: npm run start
     volumes:
-      - './src/client:/usr/app/src'
-      - './src/common:/usr/app/common'
+      - ./src/client:/usr/app/src
+      - ./src/common:/usr/app/common
+      - ./src/client/node_modules:/usr/app/src/node_modules
     ports:
       - "3001:3001"
     depends_on:
@@ -72,6 +81,7 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
     depends_on:
       - api
+      - frontend
     networks:
       - autoportal-network
 
